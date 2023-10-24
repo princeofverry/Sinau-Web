@@ -1,12 +1,13 @@
-import React from 'react'
+import Image from "next/image";
+import React from "react";
+import RootLayout from "./layout";
 
 const NotFound = () => {
   return (
-    <div>
-        <h1>Oooopsss...</h1>
-        <h2>That page cannot be found.</h2>
-    </div>
-  )
-}
+    <>
+      
+    </>
+  );
+};
 
 export default NotFound;

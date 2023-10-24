@@ -1,29 +1,7 @@
 "use client";
+import { BoxIconElement } from "boxicons";
+import Image from "next/image";
 import React from "react";
-import {
-  EmailIcon,
-  EmailShareButton,
-  FacebookIcon,
-  FacebookMessengerIcon,
-  HatenaIcon,
-  InstapaperIcon,
-  LineIcon,
-  LinkedinIcon,
-  LivejournalIcon,
-  MailruIcon,
-  OKIcon,
-  PinterestIcon,
-  PocketIcon,
-  RedditIcon,
-  TelegramIcon,
-  TumblrIcon,
-  TwitterIcon,
-  ViberIcon,
-  VKIcon,
-  WeiboIcon,
-  WhatsappIcon,
-  WorkplaceIcon,
-} from "react-share";
 
 const Footer = () => {
   return (
@@ -34,40 +12,20 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex items-center space-x-8">
-        <div className="group">
-          <TwitterIcon
-            size={36}
-            borderRadius={16}
-            className="group-hover:scale-125 transition-all duration-300"
-          />
+        <div>
+        <box-icon name='instagram-alt' type='logo' color='#FCF5ED' ></box-icon>
         </div>
-        <div className="group">
-          <FacebookIcon
-            size={36}
-            borderRadius={16}
-            className="group-hover:scale-125 transition-all duration-300"
-          />
+        <div>
+        <box-icon name='whatsapp-square' type='logo' color='#FCF5ED' ></box-icon>
         </div>
-        <div className="group">
-          <PinterestIcon
-            size={36}
-            borderRadius={16}
-            className="group-hover:scale-125 transition-all duration-300"
-          />
+        <div>
+        <box-icon type='logo' name='pinterest' color='#FCF5ED'></box-icon>
         </div>
-        <div className="group">
-          <LineIcon
-            size={36}
-            borderRadius={16}
-            className="group-hover:scale-125 transition-all duration-300"
-          />
+        <div>
+        <box-icon name='twitter' type='logo' color='#FCF5ED' ></box-icon>
         </div>
-        <div className="group">
-          <RedditIcon
-            size={36}
-            borderRadius={16}
-            className="group-hover:scale-125 transition-all duration-300"
-          />
+        <div>
+        <box-icon name='facebook-square' type='logo' color='#FCF5ED' ></box-icon>
         </div>
       </div>
     </div>

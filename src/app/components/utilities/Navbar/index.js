@@ -10,11 +10,11 @@ const Navbar = () => {
         <p className="text-2xl font-bold italic text-[#F2ECBE]">Tradisio</p>
       </div>
       <div className="flex items-center space-x-10">
-        <Link href="/" className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-400">Home</Link>
-        <Link href="/bahasa" className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-400">Bahasa</Link>
-        <Link href="/warisan" className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-400">Warisan</Link>
-        <Link href="/cerita" className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-400">Cerita</Link>
-        <Link href="/wayang" className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-400">Wayang</Link>
+        <Link href="/" className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-500">Home</Link>
+        <Link href="/bahasa" className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-500">Bahasa</Link>
+        <Link href="/warisan" className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-500">Warisan</Link>
+        <Link href="/cerita" className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-500">Cerita</Link>
+        <Link href="/wayang" className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-500">Wayang</Link>
       </div>
     </div>
   );
