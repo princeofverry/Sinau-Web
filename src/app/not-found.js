@@ -5,7 +5,8 @@ import RootLayout from "./layout";
 const NotFound = () => {
   return (
     <>
-      
+      <h1>Ooooopppsssss...</h1>
+      <h3>destination unknown</h3>
     </>
   );
 };
