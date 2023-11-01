@@ -16,7 +16,7 @@ const TranslateJawa = () => {
     <>
       <div>
         <h1 className="text-white font-bold text-center text-3xl">
-          Masukkan Aksara
+          Masukkan Latin
         </h1>
         <input
           className="w-[554px] h-[63px] bg-[#E2C799] rounded-[20px] px-4 py-4 mt-4 text-[#9A3B3B] placeholder-[#9A3B3B] placeholder:font-medium"

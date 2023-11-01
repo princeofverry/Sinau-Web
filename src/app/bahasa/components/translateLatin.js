@@ -14,7 +14,7 @@ function TranslateLatin() {
   return (
     <div>
       <p className="mt-8 font-bold text-white text-3xl text-center">
-        Masukkan Latin
+        Masukkan Aksara
       </p>
       <input
         type="text"
