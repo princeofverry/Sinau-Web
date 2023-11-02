@@ -17,7 +17,7 @@ const HalamanUtama = () => {
               style={{ marginTop: "85px" }}
             >
               <h1 className="py-4">HELLO TRADISIONERS!</h1>
-              <div className="sm:text-left text-3xl font-[500] text-[#E2C799]">
+              <div className="sm:text-left text-3xl font-[500] text-[#F2ECBE]">
                 Temukan keberagaman budaya
               </div>
               <div className="text-base font-extralight text-white">

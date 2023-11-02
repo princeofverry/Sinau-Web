@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import TranslateJawa from "./components/translate";
 import TranslateLatin from "./components/translateLatin";
+import GambaranBahasa from "./components/gambar";
 
 const Bahasa = () => {
   return (
@@ -27,36 +28,20 @@ const Bahasa = () => {
           <p className="max-w-screen-xl text-lg font-light mx-auto text-center  text-white py-8">
             Warisan budaya Nusantara yang indah dan berharga.
           </p>
-          <ul className="flex sm:flex-row flex-col gap-16 justify-center mx-8">
+          <ul className="flex sm:flex-row flex-col gap-8 justify-center mx-4">
             <li>
-              <div style={{ fontWeight: "bold", textAlign: "center" }}>
-                AKSARA JAWA
-              </div>
-              <img
-                src="/aksaraJawa.png"
-                width={459}
-                height={611}
-                className="mx-auto"
-                alt="Aksara Jawa"
-              />
+              <GambaranBahasa source={"/aksaraJawa.png"} judul={"AKSARA JAWA"}/>
             </li>
             <li>
-              <div style={{ fontWeight: "bold", textAlign: "center" }}>
-                SANDHANGAN
-              </div>
-              <img
-                src="/aksaraSandang.png"
-                width={459}
-                height={611}
-                className="mx-auto"
-                alt="Aksara Sandang"
-              />
+              <GambaranBahasa source={"/aksaraPasangan.png"} judul={"PASANGAN"}/>
+            </li>
+            <li>
+              <GambaranBahasa source={"/aksaraSandang.png"} judul={"SANDHANGAN"}/>
             </li>
           </ul>
         </div>
       </div>
       <div className="w-full h-screen bg-[#C08261] flex justify-center items-center">
-        <div></div>
         <div className="">
           <TranslateJawa />
           <TranslateLatin />

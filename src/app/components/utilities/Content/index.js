@@ -27,7 +27,7 @@ const ContentHomePage = () => {
                 src="/iconBahasa.png"
                 width={240}
                 height={300}
-                className="mx-auto my-4"
+                className="mx-auto my-4 hover:scale-105 transition-all duration-300"
               ></Image>
               <div className="bg-[#C08261] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
                 {/* Isi kotak dalam */}
@@ -40,7 +40,7 @@ const ContentHomePage = () => {
                 src="/iconWarisan.png"
                 width={200}
                 height={230}
-                className="mx-auto my-4"
+                className="mx-auto my-4 hover:scale-105 transition-all duration-300"
               ></Image>
               <div className="bg-[#C08261] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
                 {/* Isi kotak dalam */}
@@ -52,7 +52,7 @@ const ContentHomePage = () => {
                 src="/iconCerita.png"
                 width={160}
                 height={400}
-                className="mx-auto"
+                className="mx-auto hover:scale-105 transition-all duration-300"
               ></Image>
               {/* Kotak dalam */}
               <div className="bg-[#C08261] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
@@ -65,7 +65,7 @@ const ContentHomePage = () => {
                 src="/iconWayang.png"
                 width={240}
                 height={400}
-                className="mx-auto"
+                className="mx-auto hover:scale-105 transition-all duration-300"
               ></Image>
               {/* Kotak dalam */}
               <div className="bg-[#C08261] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
