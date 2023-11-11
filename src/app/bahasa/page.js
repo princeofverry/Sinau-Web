@@ -3,6 +3,7 @@ import Image from "next/image";
 import TranslateJawa from "./components/translate";
 import TranslateLatin from "./components/translateLatin";
 import GambaranBahasa from "./components/gambar";
+import CountUp from "./components/countUp";
 
 const Bahasa = () => {
   return (
@@ -10,7 +11,8 @@ const Bahasa = () => {
       <div className="w-full mt-16 h-screen bg-[#c08261] text-gray-300 flex justify-center items-center">
         <div className="max-w-[1000px] w-full text-center px-4">
           <h1 className="text-5xl font-bold text-white">"Bahasa Jawa"</h1>
-          <h2 className="text-5xl font-bold text-white py-4">
+          {/* <CountUp start={0} end={300} /> */}
+          <h2 className="text-4xl font-bold text-white py-4">
             Kekayaan Warisan Budaya Indonesia
           </h2>
           <p className="text-base font-extralight text-white">
@@ -30,13 +32,22 @@ const Bahasa = () => {
           </p>
           <ul className="flex sm:flex-row flex-col gap-8 justify-center mx-4">
             <li>
-              <GambaranBahasa source={"/aksaraJawa.png"} judul={"AKSARA JAWA"}/>
+              <GambaranBahasa
+                source={"/aksaraJawa.png"}
+                judul={"AKSARA JAWA"}
+              />
             </li>
             <li>
-              <GambaranBahasa source={"/aksaraPasangan.png"} judul={"PASANGAN"}/>
+              <GambaranBahasa
+                source={"/aksaraPasangan.png"}
+                judul={"PASANGAN"}
+              />
             </li>
             <li>
-              <GambaranBahasa source={"/aksaraSandang.png"} judul={"SANDHANGAN"}/>
+              <GambaranBahasa
+                source={"/aksaraSandang.png"}
+                judul={"SANDHANGAN"}
+              />
             </li>
           </ul>
         </div>
