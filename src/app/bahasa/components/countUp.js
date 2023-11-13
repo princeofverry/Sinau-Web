@@ -1,7 +1,7 @@
 'use client'
 import { useEffect, useRef, useState } from "react";
 
-const CountUp = ({ start = 0, end }) => {
+const CountUp = ({ start = 0, end, keterangan }) => {
     const [value, setValue] = useState(null)
     const ref = useRef(start)
 
@@ -28,7 +28,7 @@ const CountUp = ({ start = 0, end }) => {
     
     return(
         <div className="counter">
-            <h1>{value}</h1>
+            <h1>{value} {keterangan}</h1>
         </div>
     );
 }

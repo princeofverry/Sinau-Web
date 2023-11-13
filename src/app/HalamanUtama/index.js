@@ -13,24 +13,22 @@ const HalamanUtama = () => {
           {/* nambahin fitur */}
           <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 min-h-max ">
             <div
-              className="sm:text-left text-5xl font-bold text-white py-8"
+              className="sm:text-left font-bold text-white py-8"
               style={{ marginTop: "85px" }}
             >
-              <h1 className="py-4">HELLO TRADISIONERS!</h1>
-              <div className="sm:text-left text-3xl font-[500] text-[#F2ECBE]">
-                Temukan keberagaman budaya
+              <h1 className="py-4 text-2xl text-[#F2ECBE]">
+                SELAMAT DATANG DI TRADISIO
+              </h1>
+              <div className="sm:text-left text-4xl font-[400] text-white">
+                Telusuri Keindahan Budaya Jawa yang Memukau dan Penuh Pesona
+                dalam Perjalanan Tak Terlupakan!
               </div>
-              <div className="text-base font-extralight text-white">
-                "Melalui <a className="font-bold">Tradisio</a>, kita diajak
-                dalam perjalanan yang memikat untuk memahami{" "}
-                <a className="font-bold">aksara Jawa</a>, merasakan pesona{" "}
-                <a className="font-bold">warisan budaya</a>, merenung dalam{" "}
-                <a className="font-bold">kisah</a> lama, dan mengeksplorasi
-                pesona jenis-jenis <a className="font-bold">wayang.</a>"
+              <div className="text-base font-light py-8 text-[#F2EEBF]">
+                Tradisio akan membawa Anda lebih dekat dengan kekayaan budaya Jawa
               </div>
             </div>
             <div className="hidden sm:flex">
-              <Image src="/wayang-kanan.png" width={400} height={400} />
+              <Image src="/wayang-kanan.png" width={400} height={400} alt={"..."} />
             </div>
           </div>
         </div>
