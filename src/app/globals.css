@@ -7,6 +7,29 @@
     height: auto;
 }
 
+/* Tambahkan ini ke file CSS Anda atau gunakan inline styling */
+.typing-animation {
+    overflow: hidden;
+    border-right: 2px solid #f2ecbe;
+    white-space: nowrap;
+    margin: 0;
+    display: inline-block;
+    animation: typing-back-and-forth 5s infinite; /* Menggunakan animasi bolak-balik dengan durasi 5 detik */
+  }
+  
+  /* Animasi mengetik dan mundur */
+  @keyframes typing-back-and-forth {
+    0%, 100% {
+      width: 0;
+    }
+    50% {
+      width: 80%;
+    }
+  }
+  
+  
+  
+
 /* .not-found-container {
     background-image: url('/bgError.png');
     background-size: cover;
