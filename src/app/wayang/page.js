@@ -25,7 +25,7 @@ const Wayang = () => {
             </div>
 
             <div className="hidden sm:flex">
-              <Image src="/wayang-kanan.png" width={400} height={400} />
+              <Image src="/wayang-kanan.png" width={400} height={400} alt={"..."}/>
             </div>
           </div>
         </div>
@@ -150,6 +150,7 @@ const Wayang = () => {
                 src="/iconBahasa.png"
                 width={240}
                 height={300}
+                alt={"..."}
                 className="mx-auto my-4 hover:scale-105 transition-all duration-300"
               ></Image>
               <div className="bg-[#F2ECBE] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
@@ -163,6 +164,7 @@ const Wayang = () => {
                 src="/iconWarisan.png"
                 width={200}
                 height={230}
+                alt={"..."}
                 className="mx-auto my-4 hover:scale-105 transition-all duration-300"
               ></Image>
               <div className="bg-[#F2ECBE] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
@@ -175,6 +177,7 @@ const Wayang = () => {
                 src="/iconCerita.png"
                 width={160}
                 height={400}
+                alt={"..."}
                 className="mx-auto hover:scale-105 transition-all duration-300"
               ></Image>
               {/* Kotak dalam */}
@@ -188,6 +191,7 @@ const Wayang = () => {
                 src="/iconWayang.png"
                 width={240}
                 height={400}
+                alt={"..."}
                 className="mx-auto hover:scale-105 transition-all duration-300"
               ></Image>
               {/* Kotak dalam */}

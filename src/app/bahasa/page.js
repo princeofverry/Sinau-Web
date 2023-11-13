@@ -4,11 +4,15 @@ import TranslateJawa from "./components/translate";
 import TranslateLatin from "./components/translateLatin";
 import GambaranBahasa from "./components/gambar";
 import CountUp from "./components/countUp";
+import TextBjir from "../ContentMouse";
 
 const Bahasa = () => {
   return (
     <>
-      <div className="w-full mt-16 h-screen bg-[#c08261] text-gray-300 flex justify-center items-center">
+      <div className="bg-[#C08261] w-full h-screen">
+        <TextBjir />
+      </div>
+      <div className="w-full h-screen bg-[#c08261] text-gray-300 flex justify-center items-center">
         <div className="max-w-[1000px] w-full text-center px-4">
           <h1 className="text-5xl font-bold text-white">"Bahasa Jawa"</h1>
           {/* <CountUp start={0} end={300} /> */}
