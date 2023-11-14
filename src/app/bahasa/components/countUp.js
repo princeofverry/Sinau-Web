@@ -18,7 +18,7 @@ const CountUp = ({ start = 0, end, keterangan }) => {
     };
 
     useEffect(() => {
-      const isMounted = true;
+      let isMounted = true;
       if(isMounted){
         Count();
       }
