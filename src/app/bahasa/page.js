@@ -28,7 +28,7 @@ const Bahasa = () => {
       <div className="bg-[#9A3B3B] text-white py-6">
         <div className="max-w-screen-xl mx-auto my-8">
           <h1 className="text-3xl font-bold text-white text-center">
-            "Aksara Jawa"
+          &quot;Aksara Jawa&quot;
           </h1>
           <p className="max-w-screen-xl text-lg font-light mx-auto text-center  text-white py-8">
             Warisan budaya Nusantara yang indah dan berharga.
