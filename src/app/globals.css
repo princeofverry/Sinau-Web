@@ -2,38 +2,86 @@
 @tailwind components;
 @tailwind utilities;
 
-.logo-tradisio{
-    width:auto;
+.logo-tradisio {
+    width: auto;
     height: auto;
 }
 
-/* Tambahkan ini ke file CSS Anda atau gunakan inline styling */
+/* Animasi Mengetik */
 .typing-animation {
     overflow: hidden;
     border-right: 2px solid #f2ecbe;
     white-space: nowrap;
     margin: 0;
     display: inline-block;
-    animation: typing-back-and-forth 5s infinite; /* Menggunakan animasi bolak-balik dengan durasi 5 detik */
-  }
-  
-  /* Animasi mengetik dan mundur */
-  @keyframes typing-back-and-forth {
+    animation: typing-back-and-forth 5s infinite; /* Animasi bolak-balik dengan durasi 5 detik */
+}
+
+/* Animasi Mengetik dan Mundur */
+@keyframes typing-back-and-forth {
     0%, 100% {
-      width: 0;
+        width: 0;
     }
     50% {
-      width: 80%;
+        width: 85%;
     }
-  }
-  
-  
-  
+}
 
-/* .not-found-container {
-    background-image: url('/bgError.png');
-    background-size: cover;
-    background-position: center;
-    height: 80vh;
-    width: 100vw;
-  } */
+/* Animasi Hover Kotak dan Teks */
+li {
+    position: relative;
+    overflow: hidden;
+}
+
+li:hover::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #C08261; /* Warna latar belakang Pandawa */
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  animation: slideUp 0.5s forwards, fadeInText 0.5s 0.5s forwards;
+}
+
+/* Animasi Hover Kotak dan Teks Punakawan */
+li.punakawan:hover::before {
+  background-color: #F2ECBE; /* Warna latar belakang Punakawan */
+}
+
+
+@keyframes slideUp {
+    to {
+        top: 0;
+    }
+}
+
+@keyframes fadeInText {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Animasi Teks Tambahan */
+li:hover .additional-text {
+    color: white;
+    opacity: 0;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: fadeIn 0.5s forwards;
+    animation-delay: 1s; /* Penundaan animasi teks untuk dimulai setelah animasi kotak dan teks utama */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
