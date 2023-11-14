@@ -3,7 +3,6 @@ import Image from "next/image";
 import TranslateJawa from "./components/translate";
 import TranslateLatin from "./components/translateLatin";
 import GambaranBahasa from "./components/gambar";
-import CountUp from "./components/countUp";
 import TextBjir from "../ContentMouse";
 
 const Bahasa = () => {
