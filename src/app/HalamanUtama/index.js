@@ -12,14 +12,14 @@ const HalamanUtama = () => {
               <h1 className="py-4 text-2xl text-[#F2ECBE]">
                 <span className="typing-animation">SELAMAT DATANG DI TRADISIO</span>
               </h1>
-              <div className="sm:text-left text-4xl font-[400] text-white"style={{ fontFamily: 'Roboto, sans-serif' }}>
+              <div className="sm:text-left text-4xl font-[400] text-white">
                 Telusuri Keindahan Budaya Jawa yang Memukau dan Penuh Pesona dalam Perjalanan Tak Terlupakan!
               </div>
               <div className="text-base font-light py-8 text-[#F2EEBF]">
                 Tradisio akan membawa Anda lebih dekat dengan kekayaan budaya Jawa
               </div>
             </div>
-            <div className="hidden sm:flex">
+            <div className="hidden sm:flex ">
               <Image src="/wayang-kanan.png" width={400} height={400} alt={"..."} />
             </div>
           </div>

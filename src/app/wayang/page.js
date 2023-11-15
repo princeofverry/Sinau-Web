@@ -9,9 +9,9 @@ const Wayang = () => {
           <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8"></div>
           {/* Menambahkan fitur */}
           <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 min-h-max">
-            <div className="sm:text-left text-5xl font-bold text-[#F2ECBE] py-8" style={{ marginTop: "85px" }}>
+            <div className="sm:text-left text-5xl font-bold text-[#F2ECBE] py-8 mt-20">
               <h1 className="py-4">WAYANG</h1>
-              <div className="sm:text-left text-3xl text-white font-[300]" style={{ fontSize: '24px' }}>
+              <div className="sm:text-left text-white font-[300] text-lg">
                 Wayang adalah boneka tiruan orang yang terbuat dari pahatan kulit atau kayu dan sebagainya yang dapat dimanfaatkan untuk memerankan tokoh dalam pertunjukan drama tradisional
               </div>
 
@@ -19,13 +19,13 @@ const Wayang = () => {
               <div className="relative">
                 <div className="bg-[#E2C799] text-white w-32 h-12 mt-4 flex justify-center items-center rounded-md transition-all duration-300 hover:bg-[#9A3B3B]"style={{ fontSize: '24px' }}>
                   <span className="hover:text-[#FCF5ED]">Explore</span>
-                  <span style={{ transform: 'rotate(90deg)' }}>&#10132;</span>
+                  <span>&#10132;</span>
                 </div>
               </div>
             </div>
 
             <div className="hidden sm:flex">
-              <Image src="/wayang-kanan.png" width={400} height={400} />
+              <Image src="/wayang-kanan.png" width={400} height={400} alt={"..."}/>
             </div>
           </div>
         </div>
@@ -150,6 +150,7 @@ const Wayang = () => {
                 width={240}
                 height={300}
                 className="mx-auto my-4 hover:scale-105 transition-all duration-300"
+                alt={"..."}
               ></Image>
               <div className="bg-[#F2ECBE] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
                 {/* Isi kotak dalam */}
@@ -163,6 +164,7 @@ const Wayang = () => {
                 width={200}
                 height={230}
                 className="mx-auto my-4 hover:scale-105 transition-all duration-300"
+                alt={"..."}
               ></Image>
               <div className="bg-[#F2ECBE] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
                 {/* Isi kotak dalam */}
@@ -175,6 +177,7 @@ const Wayang = () => {
                 width={160}
                 height={400}
                 className="mx-auto hover:scale-105 transition-all duration-300"
+                alt={"..."}
               ></Image>
               {/* Kotak dalam */}
               <div className="bg-[#F2ECBE] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
@@ -188,6 +191,7 @@ const Wayang = () => {
                 width={240}
                 height={400}
                 className="mx-auto hover:scale-105 transition-all duration-300"
+                alt={"..."}
               ></Image>
               {/* Kotak dalam */}
               <div className="bg-[#F2ECBE] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
