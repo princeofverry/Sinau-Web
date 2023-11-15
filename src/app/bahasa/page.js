@@ -4,6 +4,7 @@ import TranslateJawa from "./components/translate";
 import TranslateLatin from "./components/translateLatin";
 import GambaranBahasa from "./components/gambar";
 import TextBjir from "../ContentMouse";
+import AppCarousel from "./components/appCarousel";
 
 const Bahasa = () => {
   return (
@@ -11,6 +12,7 @@ const Bahasa = () => {
       <div className="bg-[#C08261] w-full h-screen">
         <TextBjir />
       </div>
+      <AppCarousel/>
       <div className="bg-[#9A3B3B] text-white py-6">
         <div className="max-w-screen-xl mx-auto my-8">
           <h1 className="text-3xl font-bold text-white text-center">
