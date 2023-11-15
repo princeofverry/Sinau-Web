@@ -4,8 +4,8 @@ import { useGesture } from '@use-gesture/react'
 import { useSprings, a } from '@react-spring/web'
 
 const styles = {
-  container: { position: 'relative', height: '100%', width: '100%', touchAction: 'none' },
-  item: { position: 'absolute', height: '100%', willChange: 'transform' },
+  container: { position: 'relative', height: '100%', width: '100%', touchAction: 'none', overflow: 'hidden' },
+  item: { position: 'absolute', height: '100%', willChange: 'transform', overflow: 'hidden' },
 }
 
 /**
@@ -66,8 +66,10 @@ export function Slider({ items, width = 600, visible = 4, style, children }) {
     { target, wheel: { eventOptions: { passive: false } } }
   )
 
+  const maxWidth = '100%'
+
   return (
-    <div ref={target} style={{ ...style, ...styles.container }}>
+    <div ref={target} style={{ ...style, ...styles.container, maxWidth }}>
       {springs.map(({ x }, i) => (
         <a.div key={i} style={{ ...styles.item, width, x }} children={children(items[i], i)} />
       ))}
