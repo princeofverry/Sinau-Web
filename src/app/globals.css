@@ -27,61 +27,55 @@
     }
 }
 
-/* Animasi Hover Kotak dan Teks */
-li {
+
+/* Pandawa Box */
+.pandawa-box {
     position: relative;
     overflow: hidden;
-}
-
-li:hover::before {
-  content: '';
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #C08261; /* Warna latar belakang Pandawa */
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  animation: slideUp 0.5s forwards, fadeInText 0.5s 0.5s forwards;
-}
-
-/* Animasi Hover Kotak dan Teks Punakawan */
-li.punakawan:hover::before {
-  background-color: #F2ECBE; /* Warna latar belakang Punakawan */
-}
-
-
-@keyframes slideUp {
-    to {
-        top: 0;
-    }
-}
-
-@keyframes fadeInText {
-    to {
-        opacity: 1;
-    }
-}
-
-/* Animasi Teks Tambahan */
-li:hover .additional-text {
-    color: white;
-    opacity: 0;
+  }
+  
+  /* Pandawa Layer */
+  .pandawa-box .pandawa-layer {
     position: absolute;
-    top: 120%;
-    left: 50%;
-    transform: translateX(-50%);
-    animation: fadeIn 0.5s forwards;
-    animation-delay: 1s; /* Penundaan animasi teks untuk dimulai setelah animasi kotak dan teks utama */
-}
-
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
-}
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #C08261; /* Ganti warna sesuai kebutuhan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: 0.5s ease;
+  }
+  
+  /* Hover Effect */
+  .pandawa-box:hover .pandawa-layer {
+    transform: translateY(0);
+  }
+  
+  /* Styling for Text in Pandawa Layer */
+  .pandawa-layer h4 {
+    font-size: 3rem;
+    color: white; /* Ganti warna sesuai kebutuhan */
+  }
+  
+  .pandawa-layer p {
+    font-size: 1.6rem;
+    margin: 0.3rem 0 1rem;
+    color: white; /* Ganti warna sesuai kebutuhan */
+  }
+  
+  /* Additional Text (initially hidden) */
+  .pandawa-layer .additional-text {
+    display: none;
+  }
+  
+  /* Show Additional Text on Hover */
+  .pandawa-box:hover .pandawa-layer .additional-text {
+    display: block;
+  }
+  

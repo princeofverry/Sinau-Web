@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-spring/web": "^9.7.3",
     "@use-gesture/react": "^10.3.0",
     "boxicons": "^2.1.4",
     "carakanjs": "^1.2.1",
