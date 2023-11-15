@@ -1,10 +1,10 @@
 'use client'
-import React, { useRef, useCallback } from 'react'
+import React, { useRef, useCallback, useEffect } from 'react'
 import { useGesture } from '@use-gesture/react'
 import { useSprings, a } from '@react-spring/web'
 
 const styles = {
-  container: { position: 'relative', height: '100%', width: '100%', touchAction: 'none', overflow: 'hidden' },
+  container: { position: 'relative', height: '100%', width: '100%', touchAction: 'none', overflow: 'hidden', backgroundColor: '#your-desired-color' },
   item: { position: 'absolute', height: '100%', willChange: 'transform', overflow: 'hidden' },
 }
 
@@ -16,7 +16,7 @@ const styles = {
  * @param {number} width - fixed item with
  * @param {number} visible - number of items that muste be visible on screen
  */
-export function Slider({ items, width = 600, visible = 4, style, children }) {
+export function Slider({ items, width = 600, visible = 4, children }) {
   const idx = useCallback((x, l = items.length) => (x < 0 ? x + l : x) % l, [items])
   const getPos = useCallback((i, firstVis, firstVisIdx) => idx(i - firstVis + firstVisIdx), [idx])
   const [springs, api] = useSprings(items.length, i => ({ x: (i < items.length - 1 ? i : -1) * width }))
@@ -66,13 +66,22 @@ export function Slider({ items, width = 600, visible = 4, style, children }) {
     { target, wheel: { eventOptions: { passive: false } } }
   )
 
-  const maxWidth = '100%'
+  const maxWidth = '100%';
+
+  const containerStyle = {
+    position: 'relative',
+    height: '100%',
+    width: '100%',
+    touchAction: 'none',
+    overflow: 'hidden',
+    backgroundColor: '#9A3B3B', // Replace with your desired background color
+  };
 
   return (
-    <div ref={target} style={{ ...style, ...styles.container, maxWidth }}>
+    <div ref={target} style={containerStyle}>
       {springs.map(({ x }, i) => (
-        <a.div key={i} style={{ ...styles.item, width, x }} children={children(items[i], i)} />
+        <a.div key={i} style={{ position: 'absolute', height: '100%', willChange: 'transform', overflow: 'hidden', width, x }} children={children(items[i], i)} />
       ))}
     </div>
-  )
+  );
 }
