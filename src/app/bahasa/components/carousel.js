@@ -4,7 +4,7 @@ import { useGesture } from '@use-gesture/react'
 import { useSprings, a } from '@react-spring/web'
 
 const styles = {
-  container: { position: 'relative', height: '100%', width: '100%', touchAction: 'none', overflow: 'hidden', backgroundColor: '#your-desired-color' },
+  container: { position: 'relative', height: '100%', width: '100%', touchAction: 'none', overflow: 'hidden' },
   item: { position: 'absolute', height: '100%', willChange: 'transform', overflow: 'hidden' },
 }
 

@@ -40,7 +40,7 @@ const Wayang = () => {
             Pandawa Lima merupakan sebutan untuk lima bersaudara pada tokoh pewayangan yang terdapat dalam kisah Mahabharata. Sesuai namanya “Pandawa Lima” terdiri dari 5 tokoh yang merupakan anak dari Pandu, seorang Raja di Hastinapura.
           </p>
           <div className='pandawa-container flex sm:flex-row flex-col gap-16 justify-center mx-8'>
-            <div className='flex flex-row space-x-4'>
+            <div className='flex flex-row space-x-4 '>
             
 
               <div className='pandawa-box bg-[#E2C799] w-80 h-72 rounded-2xl relative'>
