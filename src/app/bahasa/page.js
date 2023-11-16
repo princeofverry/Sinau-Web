@@ -30,13 +30,13 @@ const Bahasa = () => {
             </li>
             <li>
               <GambaranBahasa
-                source={"/aksaraPasangan.png"}
+                source={"/aksaraSandhangan.png"}
                 judul={"PASANGAN"}
               />
             </li>
             <li>
               <GambaranBahasa
-                source={"/aksaraSandang.png"}
+                source={"/aksaraPasangan.png"}
                 judul={"SANDHANGAN"}
               />
             </li>
