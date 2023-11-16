@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className="fixed top-0 left-0 right-0 p-6 flex items-center justify-between bg-[#9A3B3B] shadow-md z-50">
+    <div className="fixed top-0 left-0 right-0 p-6 flex items-center justify-between bg-[#212759] shadow-md z-50">
       <div className="flex items-center space-x-1 group">
         <Image src="/Tradisio.png" alt="logo-tradisio" width={30} height={30} className="logo-tradisio group-hover:animate-goyang"/>
         <p className="text-2xl font-bold italic text-[#F2ECBE]">Tradisio</p>

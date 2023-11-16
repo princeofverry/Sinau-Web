@@ -9,11 +9,11 @@ import AppCarousel from "./components/appCarousel";
 const Bahasa = () => {
   return (
     <>
-      <div className="bg-[#C08261] w-full h-screen">
+      <div className="bg-[#2C3361] w-full h-screen">
         <TextBjir />
       </div>
       <AppCarousel/>
-      <div className="bg-[#C08261] text-white py-6">
+      <div className="bg-[#212759] text-white py-6">
         <div className="max-w-screen-xl mx-auto my-8">
           <h1 className="text-3xl font-bold text-white text-center">
           &quot;Aksara Jawa&quot;
@@ -43,7 +43,7 @@ const Bahasa = () => {
           </ul>
         </div>
       </div>
-      <div className="w-full h-screen bg-[#C08261] flex justify-center items-center">
+      <div className="w-full h-screen bg-[#212759] flex justify-center items-center">
         <div className="">
           <TranslateJawa />
           <TranslateLatin />

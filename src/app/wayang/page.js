@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Wayang = () => {
   return (
-    <div name="about" className="w-full mt-16 h-screen bg-[#c08261] text-gray-300">
+    <div name="about" className="w-full mt-16 h-screen bg-[#2C3361] text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 min-h-max">
           <div className="sm:text-left text-5xl font-bold text-[#F2ECBE] py-8 mt-20">
@@ -12,7 +12,7 @@ const Wayang = () => {
               Wayang adalah boneka tiruan orang yang terbuat dari pahatan kulit atau kayu dan sebagainya yang dapat dimanfaatkan untuk memerankan tokoh dalam pertunjukan drama tradisional
             </div>
             <div className="relative">
-              <div className="bg-[#E2C799] text-white w-32 h-12 mt-4 flex justify-center items-center rounded-md transition-all duration-300 hover:bg-[#9A3B3B]" style={{ fontSize: '24px' }}>
+              <div className="bg-[#2C3361] text-white w-32 h-12 mt-4 flex justify-center items-center rounded-md transition-all duration-300 hover:bg-[#212759] text-base">
                 <span className="hover:text-[#FCF5ED]">Explore</span>
                 <span>&#10132;</span>
               </div>

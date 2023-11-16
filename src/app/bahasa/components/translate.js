@@ -19,7 +19,7 @@ const TranslateJawa = () => {
           Masukkan Latin
         </h1>
         <input
-          className="w-[554px] h-[63px] bg-[#E2C799] rounded-[20px] px-4 py-4 mt-4 text-[#9A3B3B] placeholder-[#9A3B3B] placeholder:font-medium"
+          className="w-[554px] h-[63px] bg-[#4938A0] rounded-[20px] px-4 py-4 mt-4 text-white placeholder-white placeholder:font-medium focus:outline-none focus:ring-2 ring-white"
           type="text"
           placeholder="Masukkan teks..."
           value={inputText}

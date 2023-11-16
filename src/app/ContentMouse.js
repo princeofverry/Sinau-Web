@@ -21,7 +21,7 @@ export default function TextBjir() {
         transition={{ type: "tween", ease: "backOut", duration:0.5}}
       >
           <p onMouseEnter={() => {setIsHovered(true)}} onMouseLeave={() => {setIsHovered(false)}}>
-          Bahasa Jawa yaiku Bahasa Austronesia ing Pulau Jawa, Tilaran Budaya Indonesia ingkang sugih makna lan nilai
+          Bahasa <span className={styles.spanKedua}>Jawa</span>  yaiku Bahasa Austronesia ing Pulau Jawa, Tilaran Budaya Indonesia ingkang sugih makna lan nilai
           </p>
       </motion.div>
 
