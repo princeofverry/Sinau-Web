@@ -13,7 +13,7 @@ const ContentHomePage = () => {
           ></path>
         </svg>
         <div className="max-w-screen-xl mx-auto my-4">
-          <p className="max-w-screen-xl text-md font-light mx-auto text-center  text-white pb-8">
+          <p className="max-w-screen-xl sm:text-md text-lg sm:font-base font-light mx-auto text-center  text-white pb-8">
             Pulau jawa adalah pusat segala hal. Kebijaksanaan kuno, budaya
             megah, dan seni tradisional bergabung dalam harmoni yang memukau.
             Mari kita eksplorasi pandangan penuh warna akan Jawa yang

@@ -5,7 +5,7 @@ const Statistik = () => {
   return (
     <>
       <div className="w-full h-fit p-8 bg-[#4938A0] text-white">
-        <div className="flex justify-around text-xl font-[500]">
+        <div className="flex sm:flex-row sm:justify-around gap-4 flex-col text-xl font-[500]">
           <div className="text-center"> {/* Tambahkan kelas text-center di sini */}
             <div className="">
               <h1 className="">Luas</h1>
@@ -13,7 +13,7 @@ const Statistik = () => {
             </div>
           </div>
           <div className="text-center"> {/* Tambahkan kelas text-center di sini */}
-            <div className="flex flex-row ">
+            <div className=" ">
               <div className="">
                 <h1>Provinsi</h1>
                 <CountUp start={0} end={6} keterangan={""} />
@@ -21,7 +21,7 @@ const Statistik = () => {
             </div>
           </div>
           <div className="text-center"> {/* Tambahkan kelas text-center di sini */}
-            <div className="flex flex-row">
+            <div className="">
               <div className="">
                 <h1>Penduduk</h1>
                 <CountUp start={0} end={151.6} keterangan={"Juta Jiwa"} />
@@ -29,7 +29,7 @@ const Statistik = () => {
             </div>
           </div>
           <div className="text-center"> {/* Tambahkan kelas text-center di sini */}
-            <div className="flex flex-row ">
+            <div className=" ">
               <div className="">
                 <h1>Kepadatan</h1>
                 <CountUp start={0} end={1121} keterangan={"jiwa/km²"} />

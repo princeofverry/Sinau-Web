@@ -5,13 +5,13 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="p-6 flex items-center justify-between bottom-0 w-full bg-[#212759]">
+    <div className="p-6 flex items-center justify-between bottom-0 bg-[#212759]">
       <div className="flex items-center space-x-1">
         <div className="text-[#FCF5ED] text-sm ">
           @ 2023 Masih Pemula. All rights reserved.
         </div>
       </div>
-      <div className="flex items-center space-x-8">
+      {/* <div className="flex items-center space-x-8">
         <div>
         <box-icon name='instagram-alt' type='logo' color='#FCF5ED' ></box-icon>
         </div>
@@ -27,7 +27,7 @@ const Footer = () => {
         <div>
         <box-icon name='facebook-square' type='logo' color='#FCF5ED' ></box-icon>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -5,9 +5,9 @@ import Statistik from "./HalamanUtama/statistik";
 export default function Home() {
   return (
     <>
-      <HalamanUtama />
-      <ContentHomePage />
-      <Statistik/>
+        <HalamanUtama />
+        <ContentHomePage />
+        <Statistik />
     </>
   );
 }
