@@ -20,7 +20,7 @@ const HalamanUtama = () => {
               </div>
             </div>
             <div className="hidden sm:flex ">
-              <Image src="/wayang-kanan.png" width={400} height={400} alt={"..."} />
+              <Image src="/wayangBG.png" width={600} height={600} alt={"..."} />
             </div>
           </div>
         </div>
