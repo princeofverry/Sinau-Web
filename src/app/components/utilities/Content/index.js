@@ -19,7 +19,7 @@ const ContentHomePage = () => {
             Mari kita eksplorasi pandangan penuh warna akan Jawa yang
             menggagumkan.
           </p>
-          <ul className="flex sm:flex-row flex-col gap-16 justify-center mx-8">
+          <ul className="flex flex-col sm:flex-row sm:justify-center items-center gap-16 mx-8">
             <li className="bg-[#AD88E7] w-80 h-72 rounded-2xl relative">
               {/* Kotak dalam */}
               <Image
