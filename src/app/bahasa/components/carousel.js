@@ -93,7 +93,7 @@ export function Slider({ items, width = 600, visible = 4, children }) {
 
   const containerStyle = {
     position: "relative",
-    height: "110%",
+    height: "110%", //ukuran slider, berpengaruh ke ukuran gambar juga
     width: "100%",
     touchAction: "none",
     overflow: "hidden",
