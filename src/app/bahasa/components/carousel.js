@@ -93,7 +93,7 @@ export function Slider({ items, width = 600, visible = 4, children }) {
 
   const containerStyle = {
     position: "relative",
-    height: "100%",
+    height: "110%",
     width: "100%",
     touchAction: "none",
     overflow: "hidden",
