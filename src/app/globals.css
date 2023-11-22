@@ -8,18 +8,6 @@
     height: auto;
 }
 
-@keyframes moveUpDown {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-15px); /* Ubah nilai ini untuk mengatur seberapa jauh animasinya */
-  }
-}
-
-.hidden {
-  animation: moveUpDown 3s infinite; /* Ubah durasi animasi atau propertinya sesuai kebutuhan */
-}
 
 
 /* Animasi Mengetik dan Mundur */

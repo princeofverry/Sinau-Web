@@ -5,7 +5,7 @@ import React from "react";
 const HalamanUtama = () => {
   return (
     <>
-      <div name="about" className="mt-16 h-screen bg-[#2C3361] text-gray-300">
+      <div name="about" className="h-screen bg-[#2C3361] text-gray-300">
         <div className="flex flex-col justify-center items-center w-full h-full">
           <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 min-h-max ">
             <div className="sm:text-left font-bold sm:py-8 text-white py-4 mt-16">
