@@ -6,7 +6,7 @@ const Wayang = () => {
     <div name="about" className="w-full h-screen bg-[#2C3361] text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 min-h-max">
-          <div className="sm:text-left text-5xl font-bold text-[#F2ECBE] py-8 mt-20">
+          <div className="sm:text-left text-xl sm:text-4xl font-bold text-[#F2ECBE] py-8 mt-20">
             <h1 className="py-4">WAYANG</h1>
             <div className="sm:text-left text-white font-[300] text-lg">
               Wayang adalah boneka tiruan orang yang terbuat dari pahatan kulit atau kayu dan sebagainya yang dapat dimanfaatkan untuk memerankan tokoh dalam pertunjukan drama tradisional
