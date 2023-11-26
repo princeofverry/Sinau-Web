@@ -79,9 +79,9 @@ const Pandawa = () => {
             <div className='pandawa-box bg-[#AD88E7] w-56 h-72 rounded-2xl relative'>
               <Image
                 src="/iconNakulaSadewa.png"
-                width={140}
+                width={120}
                 height={200}
-                className="mx-auto my-4 hover:scale-105 transition-all duration-300"
+                className="mx-auto my-4 hover:scale-105 pb-8 transition-all duration-300"
                 alt={"..."}
               />
               <div className="bg-[#4938A0] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
@@ -98,7 +98,7 @@ const Pandawa = () => {
             <div className='pandawa-box bg-[#AD88E7] w-56 h-72 rounded-2xl relative'>
               <Image
                 src="/iconNakulaSadewa.png"
-                width={140}
+                width={120}
                 height={200}
                 className="mx-auto my-4 hover:scale-105 transition-all duration-300"
                 alt={"..."}
