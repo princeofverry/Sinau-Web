@@ -13,8 +13,8 @@ const GambaranBahasa = ({ source, judul, backgroundColor }) => {
       <div className="font-bold">{judul}</div>
       <Image
         src={source}
-        width={459}
-        height={611}
+        width={450}
+        height={600}
         className="mx-auto"
         alt="..."
       />

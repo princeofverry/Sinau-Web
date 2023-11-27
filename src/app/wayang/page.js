@@ -7,7 +7,6 @@ const Wayang = () => {
   return (
     <>
       <div
-        name="about"
         className="w-full h-screen bg-[#2C3361]"
       >
         <div className="flex flex-col justify-center items-center w-full h-full">
