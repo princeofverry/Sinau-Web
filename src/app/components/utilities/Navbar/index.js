@@ -58,7 +58,7 @@ const Navbar = () => {
             navbarOpen ? "block" : "hidden"
           }`}
         >
-          <ul className="justify-end md:flex md:space-x-6 md:space-y-0">
+          <ul className="justify-end md:flex md:space-x-16 md:space-y-0">
             <li className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-500">
               <Link href="/">Home</Link>
             </li>
