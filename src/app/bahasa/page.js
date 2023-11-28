@@ -17,7 +17,7 @@ const Bahasa = () => {
       </div>
       <div className="bg-[#2C3361] text-white py-6">
         <div className="max-w-screen-xl mx-auto my-8">
-          <h1 className="text-3xl font-bold text-white text-center">
+          <h1 className="text-3xl font-bold text-white text-center mt-6">
             &quot;Aksara Jawa&quot;
           </h1>
           <p className="max-w-screen-xl text-lg font-light mx-auto text-center  text-white py-8">
@@ -45,7 +45,7 @@ const Bahasa = () => {
           </ul>
         </div>
       </div>
-      <div className="w-full h-screen bg-[#212759] pt-4">
+      <div className="w-full h-2/3 bg-[#212759] py-16">
           <TranslateJawa />
           <TranslateLatin />
       </div>

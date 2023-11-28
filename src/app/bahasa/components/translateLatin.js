@@ -13,7 +13,7 @@ function TranslateLatin() {
   };
   return (
     <div className="flex flex-col place-items-center">
-      <p className="mt-8 font-bold text-white text-xl sm:text-2xl text-center">
+      <p className="mt-8 text-white font-bold text-center text-xl sm:text-2xl">
         Masukkan Aksara
       </p>
       <input
