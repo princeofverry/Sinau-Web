@@ -89,6 +89,7 @@ export function Slider({ items, width = 600, visible = 4, children }) {
     { target, wheel: { eventOptions: { passive: false } } }
   );
 
+  
   // const maxWidth = '100%';
 
   const containerStyle = {
@@ -97,7 +98,7 @@ export function Slider({ items, width = 600, visible = 4, children }) {
     width: "100%",
     touchAction: "none",
     overflow: "hidden",
-    backgroundColor: "#2C3361", // Replace with your desired background color
+    backgroundColor: "#212759", // Replace with your desired background color
   };
 
   return (
