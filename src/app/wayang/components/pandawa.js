@@ -3,17 +3,10 @@ import Image from 'next/image';
 
 const Pandawa = () => {
   return (
-    <div className="bg-[#212759] text-white pb-6">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#2C3361"
-          fillOpacity="1"
-          d="M0,128L34.3,133.3C68.6,139,137,149,206,138.7C274.3,128,343,96,411,101.3C480,107,549,149,617,170.7C685.7,192,754,192,823,176C891.4,160,960,128,1029,101.3C1097.1,75,1166,53,1234,53.3C1302.9,53,1371,75,1406,85.3L1440,96L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
-        ></path>
-      </svg>
-      <h1 className="text-4xl font-bold text-white text-center">Pandawa Lima</h1>
+    <div className="bg-[#212759] min-h-screen text-white pb-24">
+      <h1 className="text-4xl font-bold text-white text-center pt-24">Pandawa Lima</h1>
       <div className="max-w-screen-xl mx-auto my-4">
-        <p className="max-w-screen-xl text-md font-light mx-auto text-center text-white pb-8">
+        <p className="text-md font-light mx-auto text-center text-white pb-8 " style={{ width: '1200px' }}>
           Pandawa Lima merupakan sebutan untuk lima bersaudara pada tokoh pewayangan yang terdapat dalam kisah Mahabharata. Sesuai namanya “Pandawa Lima” terdiri dari 5 tokoh yang merupakan anak dari Pandu, seorang Raja di Hastinapura.
         </p>
         <div className='pandawa-container flex flex-wrap gap-16 justify-center mx-8'>

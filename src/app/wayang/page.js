@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Pandawa from "./components/pandawa";
 import Punakawan from "./components/punakawan";
+import Head from 'next/head';
 
 const Wayang = () => {
   return (
@@ -38,6 +39,35 @@ const Wayang = () => {
       </div>
       <Pandawa />
       <Punakawan />
+     
+      <div
+        className="w-full h-screen bg-[#212759]"
+      >
+        <div className="flex flex-col justify-center items-center w-full h-full">
+          <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 min-h-max">
+          <div className="hidden sm:flex">
+              <Image
+                src="/gamelanBG.png"
+                width={600}
+                height={600}
+                alt={"..."}
+              />
+            </div>
+            <div className="typing-text m:text-left text-5xl font-bold text-[#F2ECBE] py-8 mt-20">
+              <h1 className="wayang-animation judul py-4">GAMELAN</h1>
+              <div className="sm:text-left text-white font-[300] text-lg">
+                Gamelan berasal dari kata “gamel” yang dalam bahasa Jawa artinya memukul atau menabuh, sedangkan akhiran “an” merujuk pada kata benda. Secara keseluruhan bisa dimaknai sebagai seperangkat alat musik yang dimainkan dengan cara dipukul atau ditabuh.
+              </div>
+              <div className="relative">
+                <div className="bg-[#AD88E7] text-white w-32 h-12 mt-4 flex justify-center items-center rounded-md transition-all duration-300 hover:bg-[#212759] text-base">
+                  <span className="hover:text-[#FCF5ED]">Explore</span>
+                  <span>&#10132;</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
