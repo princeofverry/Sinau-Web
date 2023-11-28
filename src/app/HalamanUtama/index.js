@@ -1,4 +1,3 @@
-import gsap from "gsap";
 import Image from "next/image";
 import React from "react";
 

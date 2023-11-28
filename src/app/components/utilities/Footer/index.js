@@ -5,9 +5,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="p-6 flex items-center justify-between bottom-0 bg-[#212759]">
-      <div className="flex items-center space-x-1">
-        <div className="text-[#FCF5ED] text-sm ">
+    //habis apus items center, justify between dan flex
+    <div className="p-6 bottom-0 bg-[#212759]">
+      {/* ada flex items center space-x-1 */}
+      <div className="text-center sm:text-left">
+        <div className="text-[#FCF5ED] text-sm">
           @ 2023 Masih Pemula. All rights reserved.
         </div>
       </div>

@@ -54,7 +54,7 @@ const Navbar = () => {
           </div>
         </div>
         <div
-          className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+          className={`flex-1 justify-self-center pb-3 md:block md:pb-0 md:mt-0 ${
             navbarOpen ? "block" : "hidden"
           }`}
         >
@@ -66,13 +66,7 @@ const Navbar = () => {
               <Link href="/bahasa">Bahasa</Link>
             </li>
             <li className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-500">
-              <Link href="/warisan">Warisan</Link>
-            </li>
-            <li className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-500">
-              <Link href="/cerita">Cerita</Link>
-            </li>
-            <li className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-500">
-              <Link href="/wayang">Wayang</Link>
+              <Link href="/wayang">Kebudayaan</Link>
             </li>
           </ul>
         </div>
