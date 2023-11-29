@@ -26,7 +26,7 @@ const Pandawa = () => {
               </div>
               <div className="pandawa-layer bg-[#C08261] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
                 <h4 className="text-white text-center">Yudhistira</h4>
-                <p className='additional-text w-40'>Penjelmaan Dewa Yama, dan memerintah di Kerajaan Amarta. Tokoh ini memiliki karakter yang sangat bijaksana</p>
+                <p className='additional-text w-40'>Merupakan penjelmaan Dewa Yama. Ia memerintah di Kerajaan Amarta. Tokoh ini memiliki karakter yang sangat bijaksana.</p>
               </div>
             </div>
 
@@ -45,7 +45,7 @@ const Pandawa = () => {
               </div>
               <div className="pandawa-layer bg-[#C08261] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
                 <h4 className="text-white text-center">Bima</h4>
-                <p className='additional-text w-40'>Penjelmaan Dewa Bayu, yang bertempat tinggal di wilayah Indraprastha, dan digambarkan sebagai sosok yang kuat</p>
+                <p className='additional-text w-40'>Merupakan penjelmaan Dewa Bayu. Ia bertempat tinggal di wilayah Indraprastha, dan digambarkan sebagai sosok yang kuat.</p>
               </div>
             </div>
 
@@ -64,7 +64,7 @@ const Pandawa = () => {
               </div>
               <div className="pandawa-layer bg-[#C08261] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
                 <h4 className="text-white text-center">Arjuna</h4>
-                <p className='additional-text w-40'>Penjelmaan Dewa Indra, yang memimpin kerajaan di Madukara dan digambarkan sebagai sosok ksatria yang cerdik</p>
+                <p className='additional-text w-40'>Merupakan penjelmaan Dewa Indra. Ia memimpin kerajaan di Madukara dan digambarkan sebagai sosok ksatria yang cerdik.</p>
               </div>
             </div>
 
@@ -83,7 +83,7 @@ const Pandawa = () => {
               </div>
               <div className="pandawa-layer bg-[#C08261] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
                 <h4 className="text-white text-center">Nakula</h4>
-                <p className='additional-text w-40'>Penjelmaan Dewa Kembar Aswin dan digambarkan sebagai sosok yang pandai dalam memainkan senjata</p>
+                <p className='additional-text w-40'>Merupakan penjelmaan Dewa Kembar Aswin dan digambarkan sebagai sosok yang pandai dalam memainkan senjata.</p>
               </div>
             </div>
 
@@ -102,7 +102,7 @@ const Pandawa = () => {
               </div>
               <div className="pandawa-layer bg-[#C08261] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
                 <h4 className="text-white text-center">Sadewa</h4>
-                <p className='additional-text w-40'>Penjelmaan Dewa Kembar Aswin dan digambarkan sebagai sosok yang ahli dalam ilmu astronomi</p>
+                <p className='additional-text w-40'>Merupakan penjelmaan Dewa Kembar Aswin dan digambarkan sebagai sosok yang ahli dalam ilmu astronomi.</p>
               </div>
             </div>
             

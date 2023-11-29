@@ -15,9 +15,7 @@ const Wayang = () => {
             <div className="typing-text m:text-left text-5xl font-bold text-[#F2ECBE] py-8 mt-20">
               <h1 className="wayang-animation judul py-4">WAYANG</h1>
               <div className="sm:text-left text-white font-[300] text-lg">
-                Wayang adalah boneka tiruan orang yang terbuat dari pahatan
-                kulit atau kayu dan sebagainya yang dapat dimanfaatkan untuk
-                memerankan tokoh dalam pertunjukan drama tradisional
+                Wayang adalah boneka tiruan orang yang terbuat dari pahatan kulit atau kayu dan sebagainya yang dapat dimanfaatkan untuk memerankan tokoh dalam pertunjukan drama tradisional.
               </div>
               <div className="relative">
                 <div className="bg-[#AD88E7] text-white w-32 h-12 mt-4 flex justify-center items-center rounded-md transition-all duration-300 hover:bg-[#212759] text-base">
