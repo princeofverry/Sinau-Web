@@ -26,7 +26,7 @@ const Punakawan = () => {
               </div>
               <div className="pandawa-layer bg-[#C08261] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
                 <h4 className="text-white text-center">Semar</h4>
-                <p className='additional-text w-40'>melambangkan kehendak yang luhur, sehingga tidak pernah mau mengabdi kepada manusia yang berbuat jahat</p>
+                <p className='additional-text w-40'>Melambangkan kehendak yang luhur, sehingga tidak pernah mau mengabdi kepada manusia yang berbuat jahat</p>
               </div>
             </div>
 
@@ -45,7 +45,7 @@ const Punakawan = () => {
               </div>
               <div className="pandawa-layer bg-[#C08261] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
                 <h4 className="text-white text-center">Gareng</h4>
-                <p className='additional-text w-40'>memiliki sifat penuh toleransi, suka menolong, dan sifat sepi ing pamrih rame ing gawe atau rajin bekerja dan jauh dari watak aji mumpung</p>
+                <p className='additional-text w-40'>Memiliki sifat penuh toleransi, suka menolong, dan sifat sepi ing pamrih rame ing gawe atau rajin bekerja dan jauh dari watak aji mumpung</p>
               </div>
             </div>
 
@@ -64,7 +64,7 @@ const Punakawan = () => {
               </div>
               <div className="pandawa-layer bg-[#C08261] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
                 <h4 className="text-white text-center">Petruk</h4>
-                <p className='additional-text w-40'>Penggambaran fisik yang serba berlebih pada tokoh Petruk ini memiliki makna bahwa tokoh ini suka menolong, serta selalu memberi kasih sayang terhadap sesama</p>
+                <p className='additional-text w-40'>Penggambaran fisik yang serba berlebih memiliki makna bahwa ia suka menolong, serta selalu memberi kasih sayang terhadap sesama</p>
               </div>
             </div>
 
@@ -83,7 +83,7 @@ const Punakawan = () => {
               </div>
               <div className="pandawa-layer bg-[#C08261] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
                 <h4 className="text-white text-center">Bagong</h4>
-                <p className='additional-text w-40'>Penggambaran fisik Bagong ini memiliki makna bahwa kebijaksanaannya melebihi orang tuanya yang lebih dewasa, dan kebijaksanaan ini ditunjukkan dengan cara memakai pakaian orang dewasa</p>
+                <p className='additional-text w-40'>Kebijaksanaannya melebihi orang tuanya yang lebih dewasa, ini ditunjukkan dengan cara memakai pakaian orang dewasa</p>
               </div>
             </div>
           </div>
