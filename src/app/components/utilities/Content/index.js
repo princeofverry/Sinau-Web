@@ -1,11 +1,11 @@
 import Image from "next/image";
 import React from "react";
-import Pesona from "./pesona";
+import PesonaJawa from "./PesonaJawa";
 
 const ContentHomePage = () => {
   return (
     <>
-      <div className="bg-[#212759] min-h-screen text-white pt-20">
+      <div className="bg-[#212759] h-full text-white py-20">
         <div className="max-w-screen-xl mx-auto">
         <h1 className="text-4xl font-bold text-white text-center pb-4">Pulau Jawa </h1>
           <p className="max-w-screen-xl sm:text-md text-lg sm:font-base font-light mx-auto text-center text-white pb-8">
@@ -75,7 +75,7 @@ const ContentHomePage = () => {
         </div>
       </div>
       {/* Konten Baru */}
-      <Pesona/>
+      <PesonaJawa/>
     </>
   );
 };
