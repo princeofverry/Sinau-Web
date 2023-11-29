@@ -17,8 +17,8 @@ const Wayang = () => {
               <div className="sm:text-left text-white font-[300] text-lg">
                 Wayang adalah boneka tiruan orang yang terbuat dari pahatan kulit atau kayu dan sebagainya yang dapat dimanfaatkan untuk memerankan tokoh dalam pertunjukan drama tradisional.
               </div>
-              <div className="relative">
-                <div className="bg-[#AD88E7] text-white w-32 h-12 mt-4 flex justify-center items-center rounded-md transition-all duration-300 hover:bg-[#212759] text-base">
+              <div className="relative ">
+                <div className="bg-[#5260e2] text-white w-32 h-12 mt-4 flex justify-center items-center rounded-md transition-all duration-300 hover:bg-[#48306e] text-base hover:shadow-xl">
                   <span className="hover:text-[#FCF5ED]">Explore</span>
                   <span>&#10132;</span>
                 </div>
@@ -57,7 +57,7 @@ const Wayang = () => {
                 Gamelan berasal dari kata “gamel” yang dalam bahasa Jawa artinya memukul atau menabuh, sedangkan akhiran “an” merujuk pada kata benda. Secara keseluruhan bisa dimaknai sebagai seperangkat alat musik yang dimainkan dengan cara dipukul atau ditabuh.
               </div>
               <div className="relative">
-                <div className="bg-[#AD88E7] text-white w-32 h-12 mt-4 flex justify-center items-center rounded-md transition-all duration-300 hover:bg-[#212759] text-base">
+                <div className="bg-[#5260e2] text-white w-32 h-12 mt-4 flex justify-center items-center rounded-md transition-all duration-300 hover:bg-[#48306e] text-base hover:shadow-xl">
                   <span className="hover:text-[#FCF5ED]">Explore</span>
                   <span>&#10132;</span>
                 </div>
