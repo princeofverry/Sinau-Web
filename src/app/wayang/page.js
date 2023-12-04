@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Pandawa from "./components/pandawa";
 import Punakawan from "./components/punakawan";
-import Head from 'next/head';
 
 const Wayang = () => {
   return (

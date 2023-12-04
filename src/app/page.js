@@ -1,3 +1,5 @@
+"use client";
+
 import ContentHomePage from "./components/utilities/Content";
 import HalamanUtama from "./HalamanUtama";
 import BackToTop from "./components/utilities/Component/BackToTop";

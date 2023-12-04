@@ -17,6 +17,7 @@ const PesonaJawa = () => {
             <Image
               className="rounded-lg"
               src="/pesonaJawa1.png"
+              alt="Pesona Jawa 1"
               width={500}
               height={700}
               layout="responsive"
@@ -27,16 +28,7 @@ const PesonaJawa = () => {
           <div className="aspect-w-1 aspect-h-2 hover:blur-sm">
             <Image
               src="/pesonaJawa2.png"
-              width={200}
-              height={400}
-              layout="responsive"
-            />
-          </div>
-        </div>
-        <div className="md:row-start-2 row-start-2">
-          <div className="aspect-w-1 aspect-h-2 hover:blur-sm">
-            <Image
-              src="/pesonaJawa3.png"
+              alt="Pesona Jawa 2"
               width={200}
               height={400}
               layout="responsive"
@@ -46,7 +38,8 @@ const PesonaJawa = () => {
         <div className="md:row-start-2 row-start-3">
           <div className="aspect-w-1 aspect-h-2 hover:blur-sm">
             <Image
-              src="/pesonaJawa4.png"
+              src="/pesonaJawa3.png"
+              alt="Pesona Jawa 3"
               width={200}
               height={400}
               layout="responsive"
@@ -56,7 +49,19 @@ const PesonaJawa = () => {
         <div className="md:row-start-2 row-start-4">
           <div className="aspect-w-1 aspect-h-2 hover:blur-sm">
             <Image
+              src="/pesonaJawa4.png"
+              alt="Pesona Jawa 4"
+              width={200}
+              height={400}
+              layout="responsive"
+            />
+          </div>
+        </div>
+        <div className="md:row-start-2 row-start-5">
+          <div className="aspect-w-1 aspect-h-2 hover:blur-sm">
+            <Image
               src="/pesonaJawa5.png"
+              alt="Pesona Jawa 5"
               width={200}
               height={400}
               layout="responsive"
