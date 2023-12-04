@@ -10,7 +10,7 @@ const GambaranBahasa = ({ source, judul, backgroundColor }) => {
 
   return (
     <div style={containerStyle}>
-      <div className="font-bold">{judul}</div>
+      <div className="text-[#2C3361] font-bold">{judul}</div>
       <Image
         src={source}
         width={450}

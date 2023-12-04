@@ -1,13 +1,14 @@
 import Image from "next/image";
 import React from "react";
+import Statistik from "./statistik";
 
 const PesonaJawa = () => {
   return (
     <>
       <div className="bg-[#2C3361] text-white pt-8">
         <h2 className="text-3xl font-bold text-center">PESONA JAWA</h2>
-        <p className="max-w-screen-xl sm:text-md text-lg sm:font-base font-light mx-auto text-center  text-white pb-8">
-          enchanting • exquisite • majestic
+        <p className="max-w-screen-xl sm:text-md text-lg sm:font-base font-extralight mx-auto text-center  text-white pb-8">
+          Tradisional • Memikat • Eksotis
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-2 gap-4 bg-[#2C3361] p-4 md:px-32">

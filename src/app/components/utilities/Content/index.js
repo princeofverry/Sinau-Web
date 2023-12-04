@@ -7,12 +7,15 @@ const ContentHomePage = () => {
     <>
       <div className="bg-[#212759] h-full text-white py-20">
         <div className="max-w-screen-xl mx-auto">
-        <h1 className="text-4xl font-bold text-white text-center pb-4">Pulau Jawa </h1>
+          <h1 className="text-4xl font-bold text-white text-center pb-4">
+            Bahasa Jawa{" "}
+          </h1>
           <p className="max-w-screen-xl sm:text-md text-lg sm:font-base font-light mx-auto text-center text-white pb-8">
-            Pulau jawa adalah pusat segala hal. Kebijaksanaan kuno, budaya
-            megah, dan seni tradisional bergabung dalam harmoni yang memukau.
-            Mari kita eksplorasi pandangan penuh warna akan Jawa yang
-            menggagumkan.
+            Bahasa Jawa merupakan bahasa daerah yang paling banyak dituturkan
+            masyarakat yang tinggal di Pulau Jawa. Bahasa Jawa di Pulau Jawa
+            dituturkan oleh etnik Jawa yang di antaranya tinggal di Provinsi
+            Jawa Tengah, Daerah Istimewa Yogyakarta (DIY), Jawa Timur, Jawa
+            Barat, dan Banten.
           </p>
           <ul className="flex flex-col sm:flex-row sm:justify-center items-center gap-12 mx-8">
             <li className="bg-[#AD88E7] w-80 h-72 rounded-2xl relative overflow-hidden">
@@ -75,7 +78,7 @@ const ContentHomePage = () => {
         </div>
       </div>
       {/* Konten Baru */}
-      <PesonaJawa/>
+      <PesonaJawa />
     </>
   );
 };

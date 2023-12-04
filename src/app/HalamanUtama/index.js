@@ -1,28 +1,37 @@
 import Image from "next/image";
 import React from "react";
+import Statistik from "../components/utilities/Content/statistik";
 
 const HalamanUtama = () => {
   return (
     <>
-      <div name="about" className="h-screen bg-[#2C3361] text-gray-300 pt-32 sm:pt-0">
+      <div
+        name="about"
+        className="h-screen bg-[#2C3361] text-gray-300 pt-32 sm:pt-0"
+      >
         <div className="flex flex-col justify-center items-center w-full h-full">
-          <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 min-h-max mt-16">
-            <div className="sm:text-left mt-8 font-bold sm:py-8 text-white py-4 order-1 sm:order-1">
+          <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 min-h-max">
+            <div className="sm:text-left font-bold sm:py-8 text-white py-4 order-1 sm:order-1">
               <h1 className="sm:py-4 py-2 sm:mt-16 text-3xl sm:text-2xl sm:text-left text-center text-[#F2ECBE]">
-                <span className="typing-animation">SELAMAT DATANG DI TRADISIO</span>
+                <span className="typing-animation">
+                  SELAMAT DATANG DI JELITA
+                </span>
               </h1>
               <div className="sm:text-left text-center text-xl sm:text-2xl md:text-4xl font-[400] text-white">
-                Telusuri Keindahan Budaya Jawa yang Memukau dan Penuh Pesona dalam Perjalanan Tak Terlupakan!
+              Pelajari Bahasa Jawa dengan Mudah melalui Platform Online yang Interaktif dan Terstruktur.
               </div>
               <div className="sm:text-md text-base font-light sm:text-left text-center sm:py-4 py-2 text-[#F2EEBF]">
-                Tradisio akan membawa Anda lebih dekat dengan kekayaan budaya Jawa
+                Jelita akan membawa Anda lebih dekat dengan kekayaan bahasa Jawa
               </div>
             </div>
             <div className="order-2 sm:order-2">
-              <Image src="/wayangBG.png" width={600} height={600} alt={"..."} />
+              <Image src="/masJawa.png" width={600} height={600} alt={"..."} />
             </div>
           </div>
         </div>
+      </div>
+      <div className="py-32 sm:pt-4 bg-[#2C3361]">
+        <Statistik />
       </div>
     </>
   );

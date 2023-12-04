@@ -28,7 +28,7 @@ const CountUp = ({ start = 0, end, keterangan }) => {
     
     return(
         <div className="counter">
-            <h1>{value} {keterangan}</h1>
+            <h1> <a className="text-xl">{value}</a> <a className="text-sm">{keterangan}</a></h1>
         </div>
     );
 }

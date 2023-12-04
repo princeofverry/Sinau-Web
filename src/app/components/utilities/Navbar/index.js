@@ -7,10 +7,11 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-[#212759] shadow sticky top-0 z-50">
+    // #212759
+    <nav className="w-full bg-[#2C3361] sticky top-0 z-50">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:block">
-          <div className="flex items-center space-x-1 group">
+          <div className="flex items-center space-x-1 group p-4">
             <Image
               src="/Tradisio.png"
               alt="logo-tradisio"
@@ -18,7 +19,7 @@ const Navbar = () => {
               height={30}
               className="logo-tradisio group-hover:animate-goyang"
             />
-            <p className="text-2xl font-bold italic text-[#F2ECBE]">Tradisio</p>
+            <p className="text-2xl font-bold italic text-[#F2ECBE]">Jelita</p>
           </div>
           <div className="md:hidden">
             <button
@@ -67,6 +68,9 @@ const Navbar = () => {
             </li>
             <li className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-500">
               <Link href="/wayang">Kebudayaan</Link>
+            </li>
+            <li className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-500">
+              <Link href="/wayang">About Us</Link>
             </li>
           </ul>
         </div>
