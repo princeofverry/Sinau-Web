@@ -1,6 +1,6 @@
 "use client";
-import { BoxIconElement } from "boxicons";
-import Image from "next/image";
+//import { BoxIconElement } from "boxicons";
+//import Image from "next/image";
 import React from "react";
 
 const Footer = () => {

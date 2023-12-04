@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import TranslateJawa from "./components/translate";
 import TranslateLatin from "./components/translateLatin";
 import GambaranBahasa from "./components/gambar";
