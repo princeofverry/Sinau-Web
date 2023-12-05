@@ -25,7 +25,8 @@
     "sass": "^1.69.5",
     "scrollreveal": "^4.0.9",
     "slick-carousel": "^1.8.1",
-    "swiper": "^11.0.4"
+    "swiper": "^11.0.4",
+    "tailwindscss": "^0.3.0"
   },
   "devDependencies": {
     "autoprefixer": "^10",

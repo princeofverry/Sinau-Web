@@ -6,6 +6,7 @@ import TextBjir from "../ContentMouse";
 import AppCarousel from "./components/appCarousel";
 import BackToTop from "../components/utilities/Component/BackToTop";
 import Wordle from "../Course/components/wordle";
+import Course1 from '../Course/components/course1'
 
 const Bahasa = () => {
   return (
@@ -51,6 +52,7 @@ const Bahasa = () => {
           <TranslateLatin />
       </div>
       <Wordle/>
+      <Course1/>
       <BackToTop url={"/bahasa"}/>
     </>
   );
