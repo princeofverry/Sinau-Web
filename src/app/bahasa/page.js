@@ -3,7 +3,7 @@ import TranslateJawa from "./components/translate";
 import TranslateLatin from "./components/translateLatin";
 import GambaranBahasa from "./components/gambar";
 import TextBjir from "../ContentMouse";
-import AppCarousel from "./components/appCarousel";
+// import AppCarousel from "./components/appCarousel";
 import BackToTop from "../components/utilities/Component/BackToTop";
 import Wordle from "../Course/components/wordle";
 import Course1 from '../Course/components/course1'
@@ -14,7 +14,7 @@ const Bahasa = () => {
       <div className="bg-[#2C3361] w-full h-screen hidden sm:block">
         <TextBjir />
       </div>
-      <AppCarousel />
+      {/* <AppCarousel /> */}
       <div className="bg-[#2C3361]">
       </div>
       <div className="bg-[#2C3361] text-white py-6">

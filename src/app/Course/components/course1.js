@@ -4,11 +4,11 @@ import Link from 'next/link';
 
 const Course1 = () => {
   return (
-    <div className="bg-[#2C3361] min-h-screen text-white pb-24">
-      <h1 className="text-4xl font-bold text-white text-center pt-24">Sinau Jawa</h1>
+    <div className="bg-[#2C3361] min-h-screen text-white">
+      <h1 className="text-4xl font-bold text-white text-center pt-4">Sinau Jawa</h1>
       <div className="max-w-screen-xl mx-auto my-4">
-        <div className='pandawa-container flex flex-col sm:flex-row sm:justify-center items-center gap-14 mx-8'>
-          <div className='flex flex-col sm:flex-row space-x-0 sm:space-x-12 '>
+        <div className='pandawa-container flex justify-center'>
+          <div className='flex flex-wrap justify-center gap-14'>
             {/* Unggah-ungguh basa jawa */}
             <Link href="/Course/components/course2"> 
               <div className='pandawa-box bg-[#AD88E7] w-full sm:w-60 h-72 rounded-2xl relative overflow-hidden'>

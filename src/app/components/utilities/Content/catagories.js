@@ -45,7 +45,7 @@ const Catagories = () => {
               <p className="font-base text-slate-300">
                 Tebak kata dalam <strong>Wordle</strong>{" "}
                 <strong>Bahasa Jawa!</strong> Coba sekarang dan ungkap rahasia
-                kata dengan indahnya bahasa Jawa. Seru dan menantang!
+                kata dengan indahnya <strong>bahasa Jawa.</strong> Seru dan menantang!
               </p>
             </div>
           </div>
