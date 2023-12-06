@@ -82,24 +82,16 @@ function Wordle() {
         const col = index % 5;
         const cell = answers[row]?.[col];
 
-        const style = {
-            flex: '1',
-            justifyContent: 'center',
-            alignItems: 'center',
-            fontSize: '3xl',
-            fontWeight: 'bold',
-            aspectRatio: 1,
-            height: 'fit-content',
-            backgroundColor: !ANSWER.includes(cell) ? '#2C3361' : '',
-            // background tiap kotak
-        };
+        const style =
+            'flex justify-center items-center text-3xl font-bold aspect-square h-fit';
 
         if (cell)
             return (
                 <div
                     key={index}
-                    style={style}
                     className={clsx(
+                        style,
+                        !ANSWER.includes(cell) && 'bg-slate-608',
                         ANSWER.includes(cell) && ANSWER[col] !== cell && 'bg-yellow-400',
                         ANSWER[col] === cell && 'bg-green-600'
                     )}
@@ -110,7 +102,7 @@ function Wordle() {
 
         if (row === answers.length)
             return (
-                <div key={index} style={style} className={clsx('border-slate-400 border')}>
+                <div key={index} className={clsx('border-slate-400 border', style)}>
                     {answerRow[col]}
                 </div>
             );
@@ -134,8 +126,7 @@ function Wordle() {
     };
 
     return (
-        //background keseluruhan
-        <div style={{ backgroundColor: '#212759' }} className="min-h-screen text-white"> 
+        <div className="bg-slate-900 min-h-screen text-white">
             <div className="container mx-auto flex flex-col max-h-screen">
                 <h1 className="text-6xl text-center my-4">Wordle</h1>
                 <div>
