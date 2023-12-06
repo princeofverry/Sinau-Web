@@ -19,7 +19,7 @@ const Navbar = () => {
               height={30}
               className="logo-tradisio group-hover:animate-goyang"
             />
-            <p className="text-2xl font-bold italic text-[#F2ECBE]">Jelita</p>
+            <p className="text-2xl font-bold italic text-[#F2ECBE]">Sinau</p>
           </div>
           <div className="md:hidden">
             <button
@@ -64,10 +64,10 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-500">
-              <Link href="/bahasa">Bahasa</Link>
+              <Link href="/bahasa">Course</Link>
             </li>
             <li className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-500">
-              <Link href="/wayang">Kebudayaan</Link>
+              <Link href="/wayang">Wayang</Link>
             </li>
             <li className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-500">
               <Link href="/wayang">About Us</Link>

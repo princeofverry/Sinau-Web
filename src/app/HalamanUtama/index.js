@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import Statistik from "../components/utilities/Content/statistik";
 
 const HalamanUtama = () => {
   return (
@@ -14,7 +13,7 @@ const HalamanUtama = () => {
             <div className="sm:text-left font-bold sm:py-8 text-white py-4 order-1 sm:order-1">
               <h1 className="sm:py-4 py-2 sm:mt-16 text-3xl sm:text-2xl sm:text-left text-center text-[#F2ECBE]">
                 <span className="typing-animation">
-                  SELAMAT DATANG DI JELITA
+                  SELAMAT DATANG DI SINAU
                 </span>
               </h1>
               <div className="sm:text-left text-center text-xl sm:text-2xl md:text-4xl font-[400] text-white">
@@ -30,14 +29,11 @@ const HalamanUtama = () => {
                 </button>
               </div>
             </div>
-            <div className="order-2 sm:order-2">
-              <Image src="/masJawa.png" width={600} height={600} alt={"..."} />
+            <div className="order-2 sm:order-2 sm:block hidden">
+              <Image src="/masJawa.png" width={600} height={600} alt={"..."}/>
             </div>
           </div>
         </div>
-      </div>
-      <div className="py-32 sm:pt-4 bg-[#2C3361]">
-        <Statistik />
       </div>
     </>
   );
