@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import SliderTestimoni from "../../Course/components/TestimonialSlider";
 import Statistik from "./statistik";
 
 const Catagories = () => {
@@ -10,8 +11,8 @@ const Catagories = () => {
           Kenapa #HarusSinauTerus ?
         </h1>
         <div className="flex gap-8 justify-center md:flex-row flex-col items-center p-4">
-          <div className="flex wrap w-64">
-            <div className="mr-4">
+          <div className="flex w-64">
+            <div className="mr-4 flex-cols">
               <Image src="/books.svg" alt="..." width={250} height={250} />
             </div>
             <div className="text-slate-200">
@@ -23,7 +24,7 @@ const Catagories = () => {
               </p>
             </div>
           </div>
-          <div className="flex wrap w-64">
+          <div className="flex w-64">
             <div className="mr-4">
               <Image src="/quiz.svg" alt="..." width={300} height={250} />
             </div>
@@ -36,7 +37,7 @@ const Catagories = () => {
               </p>
             </div>
           </div>
-          <div className="flex wrap w-64">
+          <div className="flex w-64">
             <div className="mr-4">
               <Image src="/wordle.svg" alt="..." width={300} height={250} />
             </div>
@@ -45,11 +46,12 @@ const Catagories = () => {
               <p className="font-base text-slate-300">
                 Tebak kata dalam <strong>Wordle</strong>{" "}
                 <strong>Bahasa Jawa!</strong> Coba sekarang dan ungkap rahasia
-                kata dengan indahnya <strong>bahasa Jawa.</strong> Seru dan menantang!
+                kata dengan indahnya <strong>bahasa Jawa.</strong> Seru dan
+                menantang!
               </p>
             </div>
           </div>
-          <div className="flex wrap w-64">
+          <div className="flex w-64">
             <div className="mr-4">
               <Image src="/wordle.svg" alt="..." width={300} height={250} />
             </div>
@@ -64,8 +66,21 @@ const Catagories = () => {
             </div>
           </div>
         </div>
-        <div className="text-slate-py-32 sm:pt-4">
+        <div className="text-slate-py-32 sm:pt-4 p-4">
           <Statistik />
+        </div>
+        <div className="bg-[#2C3361] p-4 sm:p-8 flex sm:flex-row flex-col">
+          <div className="p-4 sm:ml-8">
+            <h1 className="text-white text-2xl sm:text-4xl text-center sm:text-left">Testimoni Pengguna Kami!</h1>
+            <p className="text-white mt-4 sm:mr-24 text-justify sm:text-base text-sm">
+              Pemberi testimoni adalah penjelmaan kepuasan, menjadi saksi
+              berharga atas pengalaman yang luar biasa. Dengan penuh antusias,
+              mereka berbagi kesuksesan, memberikan cerita yang menginspirasi,
+              dan menciptakan jejak positif dalam setiap pengalaman atau produk
+              yang mereka alami.
+            </p>
+          </div>
+          <SliderTestimoni />
         </div>
       </div>
     </>
