@@ -115,7 +115,7 @@ function Wordle() {
                 key={char}
                 onClick={() => handlePress(char)}
                 className={clsx(
-                    'border-slate-600 border h-10 md:h-14',
+                    'border-slate-600 border h-5 sm:h-10 text-xs sm:text-base',
                     isAspectSquare ? 'aspect-square' : 'grow-[2]',
                     keyboardState[char]
                 )}
@@ -126,7 +126,7 @@ function Wordle() {
     };
 
     return (
-        <div className="bg-slate-900 min-h-screen text-white">
+        <div className="bg-[#2C3361] min-h-screen text-white">
             <div className="container mx-auto flex flex-col max-h-screen">
                 <h1 className="text-6xl text-center my-4">Wordle</h1>
                 <div>
