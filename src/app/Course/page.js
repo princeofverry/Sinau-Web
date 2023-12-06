@@ -1,12 +1,12 @@
 import React from "react";
-import TranslateJawa from "./components/translate";
-import TranslateLatin from "./components/translateLatin";
-import GambaranBahasa from "./components/gambar";
+import TranslateJawa from "../bahasa/components/translate";
+import TranslateLatin from "../bahasa/components/translateLatin";
+import GambaranBahasa from "../bahasa/components/gambar";
 import TextBjir from "../ContentMouse";
 // import AppCarousel from "./components/appCarousel";
 import BackToTop from "../components/utilities/Component/BackToTop";
-import Wordle from "../Course/components/wordle";
-import Course1 from '../Course/components/course1'
+import Wordle from "../components/Course/components/wordle";
+import Course1 from '../components/Course/components/course1'
 
 const Bahasa = () => {
   return (

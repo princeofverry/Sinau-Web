@@ -64,7 +64,7 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-500">
-              <Link href="/bahasa">Course</Link>
+              <Link href="/Course">Course</Link>
             </li>
             <li className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-500">
               <Link href="/wayang">Wayang</Link>
