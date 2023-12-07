@@ -72,7 +72,7 @@ const SliderTestimoni = () => {
   });
 
   return (
-    <div className="w-full max-w-lg mx-auto relative overflow-hidden bg-[#2C3361]">
+    <div className="w-full max-w-lg mx-auto relative overflow-hidden bg-[#2C3361] hover:scale-105 transition duration-300">
       <animated.div
         style={{ ...props, display: "flex", transition: "transform 0.5s" }}
         onMouseEnter={() => setAutoSlideActive(false)}
@@ -113,7 +113,7 @@ const SliderTestimoni = () => {
         ))}
       </animated.div>
       {/* matiin button */}
-      {/* <div className="mt-4 flex justify-between absolute inset-x-0 top-1/3">
+      <div className="mt-4 flex justify-between absolute inset-x-0 top-1/3">
         <button
           onClick={prevTestimoni}
           className="text-gray-600 text-2xl"
@@ -128,7 +128,7 @@ const SliderTestimoni = () => {
         >
           &gt;
         </button>
-      </div> */}
+      </div>
     </div>
   );
 };
