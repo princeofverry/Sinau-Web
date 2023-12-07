@@ -70,7 +70,7 @@ const Navbar = () => {
               <Link href="/wayang">Wayang</Link>
             </li>
             <li className="text-slate-100 text-lg hover:text-[#F2EEBF] hover:underline hover:font-bold transition-all duration-500">
-              <Link href="/wayang">About Us</Link>
+              <Link href="/about-us">About Us</Link>
             </li>
           </ul>
         </div>
