@@ -78,19 +78,41 @@ const AboutUs = () => {
         {/* konten 4*/}
         <div className="text-white w-full flex justify-start items-start pt-16 pl-1 pb-12">
         <div className="w-1/2">
-            <Image
-              src="/pesonaJawa2.png"
-              className="w-auto h-auto"
-              alt="..."
-              layout="responsive" // Membuat gambar responsif
-              width={250}
-              height={450}
-            />
+          <div className="flex">
+            <div className="w-1/2">
+              <Image
+                src="/profile1.jpeg"
+                className="w-72 h-72 pl-2 pb-8"
+                alt="..."
+                layout="fixed" // Membuat gambar responsif
+                width={250}
+                height={450}
+              />
+              <Image
+                src="/profile3.jpeg"
+                className="w-72 h-auto pl-6"
+                alt="..."
+                layout="fixed" // Membuat gambar responsif
+                width={250}
+                height={450}
+              />
+            </div>
+            <div className="w-1/2">
+              <Image
+                src="/profile2.jpeg"
+                className="w-80 h-auto pt-28 pr-4 pl-0"
+                alt="..."
+                layout="fixed" // Membuat gambar responsif
+                width={250}
+                height={450}
+              />
+            </div>
           </div>
+        </div>
           <div className="w-1/2">
             <div className="max-w-[800px] mx-auto text-start flex flex-col justify-start">
-              <p className="text-white md:text-5xl sm:text-6xl text-4xl font-bold md:pt-4 pl-4 md:pb-0">
-                ABOUT US
+              <p className="text-white md:text-5xl sm:text-6xl text-4xl font-bold md:pt-20 pl-4 md:pb-0">
+                THE TEAM.
               </p>
               <h1 className="md:text-base md:italic text-2xl md:py-6 text-justify mr-16 pl-4">
                 Sinau.com adalah Lorem ipsum dolor sit amet, consectetur
