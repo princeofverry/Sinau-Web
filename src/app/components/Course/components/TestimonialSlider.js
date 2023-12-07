@@ -116,14 +116,14 @@ const SliderTestimoni = () => {
       <div className="mt-4 flex justify-between absolute inset-x-0 top-1/3">
         <button
           onClick={prevTestimoni}
-          className="text-gray-600 text-2xl"
+          className="text-gray-600 text-2xl hidden"
           disabled={currentIndex === 0}
         >
           &lt;
         </button>
         <button
           onClick={nextTestimoni}
-          className="text-gray-600 text-2xl"
+          className="text-gray-600 text-2xl hidden"
           disabled={currentIndex === testimoniData.length - 1}
         >
           &gt;

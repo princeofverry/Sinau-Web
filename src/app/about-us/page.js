@@ -5,8 +5,8 @@ const AboutUs = () => {
   return (
     <div className="flex flex-col min-h-screen bg-[#212759]">
       <div className="container mx-auto flex flex-col items-center flex-1">
-        <div className="text-white w-full flex justify-start items-start pt-16">
-          <div className="w-1/3">
+        <div className="text-white w-full flex items-center sm:justify-start sm:items-start sm:flex-row flex-col">
+          <div className="w-1/3 mt-4">
             <Image
               src="/pesonaJawa2.png"
               alt="..."
@@ -17,10 +17,10 @@ const AboutUs = () => {
           </div>
           <div className="w-2/3">
             <div className="max-w-[800px] mx-auto text-start flex flex-col justify-start">
-              <p className="text-white md:text-5xl sm:text-6xl text-4xl font-bold">
+              <p className="text-white md:text-5xl sm:text-6xl text-4xl mt-6 font-bold sm:text-left text-center">
                 ABOUT US.
               </p>
-              <h1 className="md:text-base md:italic text-2xl md:py-6 text-justify mr-20">
+              <h1 className="md:text-base md:italic text-xl md:py-6 text-justify sm:mr-20 py-4">
                 Sinau.com adalah Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit. Curabitur nec hendrerit turpis, eu porta metus.
                 Ut tempus interdum sagittis. Nunc viverra, dolor vel gravida
@@ -37,7 +37,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        <div className="text-white w-full flex justify-start items-start pt-16">
+        <div className="text-white w-full flex items-center sm:justify-start sm:items-start sm:flex-row flex-col">
           <div className="w-1/2">
             <div className="max-w-[800px] mx-auto text-start flex flex-col justify-start">
               <p className="text-white md:text-4xl sm:text-6xl text-4xl font-bold md:pt-12 md:pb-0">
