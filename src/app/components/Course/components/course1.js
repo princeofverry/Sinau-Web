@@ -45,9 +45,9 @@ const Course1 = () => {
             <Link href="../Course/Video/page.js">
               <div className="pandawa-box bg-[#AD88E7] w-full sm:w-60 h-72 rounded-2xl relative overflow-hidden">
                 <Image
-                  src="/iconGareng.png"
-                  width={200}
-                  height={260}
+                  src="/iconUnggah.png"
+                  width={220}
+                  height={240}
                   className="mx-auto my-4 hover:scale-105 transition-all duration-300"
                   alt={"..."}
                 />
@@ -64,9 +64,9 @@ const Course1 = () => {
             <Link href="/Course/components/course2">
               <div className="pandawa-box bg-[#AD88E7] w-full sm:w-60 h-72 rounded-2xl relative overflow-hidden">
                 <Image
-                  src="/iconPetruk.png"
-                  width={200}
-                  height={240}
+                  src="/iconUnggah.png"
+                  width={220} // Adjust the width as needed
+                  height={240} // Adjust the height as needed
                   className="mx-auto my-4 hover:scale-105 transition-all duration-300"
                   alt={"..."}
                 />

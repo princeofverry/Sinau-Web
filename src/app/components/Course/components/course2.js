@@ -9,9 +9,8 @@ const Course2 = () => {
       <h1 className="text-4xl font-bold text-white text-center pt-4">
         Unggah-Ungguh Basa Jawa
       </h1>
-      <p className="sm:px-32 px-4 text-justify py-4">
-        Sinau, platform kursus Bahasa Jawa. Kami membawa Anda pada perjalanan
-        edukasi yang menyenangkan dan bermakna. 
+      <p className="sm:px-32 px-4 text-center py-4">
+      Unggah-ungguh dalam ilmu bahasa Jawa merupakan kata dwilingga salin swara dari kata/tembung ‘ungguh’ yang diulang dua kali. Arti kata ungguh adalah bagaimana bersikap terhadap orang lain yang kita ajak berinteraksi,  yang didasarkan pada strata/tingkatan/kasta/level-nya. 
       </p>
       <div className="max-w-screen-xl mx-auto">
         <div className="pandawa-container flex justify-center">
@@ -19,7 +18,7 @@ const Course2 = () => {
               <div className="pandawa-box bg-[#AD88E7] w-full sm:w-[600px] h-[400px] rounded-2xl relative overflow-hidden">
                 {/* Image inside the top box */}
                 <Image
-                  src="/unggah.png"
+                  src="/courseUnggah.png"
                   layout="fill"
                   objectFit="cover"
                   alt="Unggah-Ungguh"
