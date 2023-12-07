@@ -42,7 +42,7 @@ const Course1 = () => {
             </Link>
 
             {/* Aksara Jawa */}
-            <Link href="/Course/components/course2">
+            <Link href="../Course/Video/page.js">
               <div className="pandawa-box bg-[#AD88E7] w-full sm:w-60 h-72 rounded-2xl relative overflow-hidden">
                 <Image
                   src="/iconGareng.png"
