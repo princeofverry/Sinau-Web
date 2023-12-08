@@ -49,7 +49,7 @@ const AboutUs = () => {
           </div>
         </div>
         {/* konten 3 */}
-        <div className="text-white w-full flex justify-start items-start pt-8 flex items-center sm:justify-start sm:items-start sm:flex-row flex-col">
+        <div className="text-white w-full justify-start pt-8 flex items-center sm:justify-start sm:items-start sm:flex-row flex-col">
           <div className="w-1/2">
             <div className="max-w-[800px] mx-auto text-start flex flex-col justify-start">
               <p className="text-white md:text-4xl sm:text-6xl text-4xl font-bold md:pt-32 md:pb-0 ml-12">

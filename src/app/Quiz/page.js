@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { quiz } from '../data.js';
 
-const page = () => {
+const PageQuiz = () => {
   const [activeQuestion, setActiveQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState('');
   const [checked, setChecked] = useState(false);
@@ -55,35 +55,35 @@ const page = () => {
   };
 
   return (
-    <div className='container-quiz bg-[#2C3361] min-h-screen text-white pt-6 pr-80 pl-80'>
-      <h1 className="judul-quiz text-3xl font-bold text-white text-center mt-6">Quiz Page</h1>
+    <div className='bg-[#2C3361] min-h-screen text-white pt-6 sm:px-80 px-8'>
+      <h1 className="sm:text-3xl text-xl font-bold text-white text-center mt-6">Quiz Page</h1>
       <div>
-        <h2 className="judul-quiz2 text-white text-center mt-4i">
+        <h2 className="text-white text-center mt-4">
           Question: {activeQuestion + 1}
           <span>/{questions.length}</span>
         </h2>
       </div>
       <div>
         {!showResult ? (
-          <div className='quiz'>
-            <h3 className='judul-qu'>{questions[activeQuestion].question}</h3>
+          <div className='bg-white sm:p-4 p-6 mt-8 rounded'>
+            <h3 className='text-black text-sm sm:text-lg'>{questions[activeQuestion].question}</h3>
             {answers.map((answer, idx) => (
                <li
                key={idx}
                onClick={() => onAnswerSelected(answer, idx)}
                className={`${
-                 selectedAnswerIndex === idx ? 'li-selected-quiz' : 'li-hover-quiz'
-               } custom-li-class`}
+                 selectedAnswerIndex === idx ? 'text-white bg-[#AD88E7]' : 'bg-[#d8d8d8]'
+               } text-black list-none cursor-pointer my-2 px-4 py-2 border text- border-solid`}
              >
                <span>{answer}</span>
              </li>
             ))}
             {checked ? (
-              <button onClick={nextQuestion} className='btn'>
+              <button onClick={nextQuestion} className='w-full px-4 py-2 mt-3 text-base rounded bg-[#AD88E7] text-white'>
                 {activeQuestion === question.length - 1 ? 'Finish' : 'Next'}
               </button>
             ) : (
-              <button onClick={nextQuestion} disabled className='btn-disabled'>
+              <button onClick={nextQuestion} disabled className='bg-[#4938A0] text-white w-full px-4 py-2 mt-3'>
                 {' '}
                 {activeQuestion === question.length - 1 ? 'Finish' : 'Next'}
               </button>
@@ -113,4 +113,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default PageQuiz;

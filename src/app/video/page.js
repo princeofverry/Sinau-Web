@@ -4,14 +4,14 @@ import Link from "next/link";
 
 const Video = () => {
   return (
-    <div className="bg-[#2C3361] h-full text-white p-8 flex flex-col items-center">
-      <h1 className="text-4xl font-bold text-white text-center pt-4 pb-8">
+    <div className="bg-[#2C3361] flex flex-col min-h-screen text-white sm:px-80 px-8 items-center justify-center py-4">
+      <h1 className="sm:text-3xl text-lg font-bold text-white text-center py-4">
         Unggah-Ungguh Basa Jawa
       </h1>
       <div className="max-w-screen-xl mx-auto mb-8">
         <div className="pandawa-container flex justify-center">
           <div className="flex flex-wrap justify-center gap-14">
-            <div className="pandawa-box bg-[#AD88E7] w-full sm:w-[600px] h-[400px] rounded-2xl relative overflow-hidden">
+            <div className="pandawa-box bg-[#AD88E7] sm:w-[600px] w-[300px] h-[200px] sm:h-[400px] rounded-2xl relative overflow-hidden">
               {/* Image inside the top box */}
               <Image
                 src="/courseUnggah.png"
@@ -31,13 +31,19 @@ const Video = () => {
                 </div>
                 {/* Additional icons on the right */}
                 <div className="flex items-center space-x-4">
-                  <img src="/iconCC.png" alt="CC" className="h-8" />
-                  <img
+                  <Image src="/iconCC.png" alt="CC" width={32} height={32} />
+                  <Image
                     src="/iconSetting.png"
                     alt="Setting"
-                    className="h-8"
+                    width={32}
+                    height={32}
                   />
-                  <img src="/iconFull.png" alt="Full" className="h-8" />
+                  <Image
+                    src="/iconFull.png"
+                    alt="Full"
+                    width={32}
+                    height={32}
+                  />
                 </div>
               </div>
             </div>
