@@ -106,7 +106,7 @@ html {
 
 .judul-quiz3 {
   padding-bottom: 2rem;
-  color: #000105;
+  color: #fff;
   font-size: 1.8rem;
 }
 
@@ -117,12 +117,13 @@ button {
   font-size: 1rem;
   border-radius: 4px;
   cursor: pointer;
-  background-color: #808080;
-  color: #f8f8f8;
+  background-color:#AD88E7;
+  color: #fff;
 }
 
 .btn-disabled {
-  background-color: lightgray;
+  background-color: #4938A0;
+  color: #fff;
 }
 
 .custom-li-class {
@@ -141,18 +142,12 @@ button {
 
 .li-selected-quiz {
   color: #fff;
-  background-color: #000925;
+  background-color: #AD88E7;
 }
 
-.container-quiz {
-  max-width: 740px;
-  width: 100%;
-  margin: auto;
-  padding: 1rem;
-}
 
-.quiz-container {
-  background-color: #f8f8f8;
+.quiz {
+  background-color: #fff;
   padding: 1rem;
   margin-top: 2rem;
   border-radius: 4px;

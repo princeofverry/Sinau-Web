@@ -55,17 +55,17 @@ const page = () => {
   };
 
   return (
-    <div className='container-quiz bg-[#2C3361] w-full h-screen hidden sm:block'>
+    <div className='container-quiz bg-[#2C3361] min-h-screen text-white pt-6 pr-80 pl-80'>
       <h1 className="judul-quiz text-3xl font-bold text-white text-center mt-6">Quiz Page</h1>
       <div>
-        <h2 className="judul-quiz2 text-white text-center mt-4">
+        <h2 className="judul-quiz2 text-white text-center mt-4i">
           Question: {activeQuestion + 1}
           <span>/{questions.length}</span>
         </h2>
       </div>
       <div>
         {!showResult ? (
-          <div className='quiz-container'>
+          <div className='quiz'>
             <h3 className='judul-qu'>{questions[activeQuestion].question}</h3>
             {answers.map((answer, idx) => (
                <li

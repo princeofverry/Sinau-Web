@@ -4,11 +4,11 @@ import Link from "next/link";
 
 const Course1 = () => {
   return (
-    <div className="bg-[#212759] h-full text-white p-8">
+    <div className="bg-[#212759] min-h-screen text-white p-8">
       <h1 className="text-4xl font-bold text-white text-center pt-4">
         Sinau Jawa
       </h1>
-      <p className="sm:px-32 px-4 text-justify py-4">
+      <p className="sm:px-32 px-4 py-6 text-center">
         Sinau, platform kursus Bahasa Jawa. Kami membawa Anda pada perjalanan
         edukasi yang menyenangkan dan bermakna. Kami mengundang Anda untuk
         mengeksplorasi keindahan dan kompleksitas Bahasa Jawa melalui kursus
@@ -23,7 +23,7 @@ const Course1 = () => {
         <div className="pandawa-container flex justify-center">
           <div className="flex flex-wrap justify-center gap-14">
             {/* Unggah-ungguh basa jawa */}
-            <Link href="/Course/components/course2">
+            <Link href="./video">
               <div className="pandawa-box bg-[#AD88E7] w-full sm:w-60 h-72 rounded-2xl relative overflow-hidden">
                 <Image
                   src="/iconUnggah.png"
@@ -42,7 +42,7 @@ const Course1 = () => {
             </Link>
 
             {/* Aksara Jawa */}
-            <Link href="../Course/Video/page.js">
+            <Link href="">
               <div className="pandawa-box bg-[#AD88E7] w-full sm:w-60 h-72 rounded-2xl relative overflow-hidden">
                 <Image
                   src="/iconUnggah.png"
@@ -61,7 +61,7 @@ const Course1 = () => {
             </Link>
 
             {/* Pacelathon Basa Jawa*/}
-            <Link href="/Course/components/course2">
+            <Link href="">
               <div className="pandawa-box bg-[#AD88E7] w-full sm:w-60 h-72 rounded-2xl relative overflow-hidden">
                 <Image
                   src="/iconUnggah.png"
@@ -80,7 +80,7 @@ const Course1 = () => {
             </Link>
 
             {/* Bagong */}
-            <Link href="/Course/components/course2">
+            <Link href="">
               <div className="pandawa-box bg-[#AD88E7] w-full sm:w-60 h-72 rounded-2xl relative overflow-hidden">
                 <Image
                   src="/iconBagong.png"
