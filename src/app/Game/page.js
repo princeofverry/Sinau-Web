@@ -126,9 +126,9 @@ function Wordle() {
     };
 
     return (
-        <div className="bg-[#2C3361] min-h-screen text-white">
-            <div className="container mx-auto flex flex-col max-h-screen">
-                <h1 className="text-6xl text-center my-4">Wordle</h1>
+        <div className="bg-[#2C3361] h-full text-white">
+            <div className="container mx-auto flex flex-col h-full py-24 sm:py-16">
+                <h1 className="text-6xl text-center my-8">Wordle</h1>
                 <div>
                     <div className="grid grid-cols-5 gap-2 max-w-4xl mx-auto">
                         {[...new Array(30)].map((_, index) => renderAnswerCell(index))}

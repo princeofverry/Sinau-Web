@@ -5,7 +5,7 @@ import GambaranBahasa from "../bahasa/components/gambar";
 import TextBjir from "../ContentMouse";
 // import AppCarousel from "./components/appCarousel";
 import BackToTop from "../components/utilities/Component/BackToTop";
-import Wordle from "../components/Course/components/wordle";
+// import Wordle from "../Game/wordle";
 import Course1 from '../components/Course/components/course1'
 
 
@@ -53,7 +53,7 @@ const Bahasa = () => {
           <TranslateJawa />
           <TranslateLatin />
       </div>
-      <Wordle/>
+      {/* <Wordle/> */}
       <Course1/>
       <BackToTop url={"/bahasa"}/>
     </>

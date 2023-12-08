@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import SliderTestimoni from "../../Course/components/TestimonialSlider";
 import Statistik from "./statistik";
@@ -49,6 +50,11 @@ const Catagories = () => {
                 kata dengan indahnya <strong>bahasa Jawa.</strong> Seru dan
                 menantang!
               </p>
+              <Link href="./Game">
+                <button className="bg-[#5260e2] p-1 rounded-md hover:bg-[#48306e] hover:scale-105 transition duration-300 text-base justify-self-center">
+                  Mau main?
+                </button>
+              </Link>
             </div>
           </div>
           <div className="flex w-64">
@@ -71,7 +77,9 @@ const Catagories = () => {
         </div>
         <div className="bg-[#2C3361] p-4 sm:p-8 flex sm:flex-row flex-col">
           <div className="p-4 sm:ml-8">
-            <h1 className="text-white text-2xl sm:text-3xl text-center sm:text-left">Testimoni Pengguna Kami!</h1>
+            <h1 className="text-white text-2xl sm:text-3xl text-center sm:text-left">
+              Testimoni Pengguna Kami!
+            </h1>
             <p className="text-white mt-4 sm:mr-24 text-justify sm:text-base text-sm">
               Pemberi testimoni adalah penjelmaan kepuasan, menjadi saksi
               berharga atas pengalaman yang luar biasa. Dengan penuh antusias,
