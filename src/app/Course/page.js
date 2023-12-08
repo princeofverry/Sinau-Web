@@ -6,19 +6,24 @@ import TextBjir from "../ContentMouse";
 // import AppCarousel from "./components/appCarousel";
 import BackToTop from "../components/utilities/Component/BackToTop";
 // import Wordle from "../Game/wordle";
-import Course1 from '../components/Course/components/course1'
-
-
+import Course1 from "../components/Course/components/course1";
+import SliderMobile from "../bahasa/components/SliderMobile";
 
 const Bahasa = () => {
   return (
     <>
+      <div className="bg-[#2C3361] text-white w-full h-screen sm:hidden block text-xl text-center content-center py-8">
+        <SliderMobile/>
+        <p className="px-4">
+          Bahasa <span className="text-[#85C2FF] text-2xl">Jawa</span> adalah Bahasa Austronesia di pulau Jawa,
+          warisan budaya Indonesia yang kaya makna dan nilai.
+        </p>
+      </div>
       <div className="bg-[#2C3361] w-full h-screen hidden sm:block">
         <TextBjir />
       </div>
       {/* <AppCarousel /> */}
-      <div className="bg-[#2C3361]">
-      </div>
+      <div className="bg-[#2C3361]"></div>
       <div className="bg-[#2C3361] text-white py-6">
         <div className="max-w-screen-xl mx-auto my-8">
           <h1 className="text-3xl font-bold text-white text-center mt-6">
@@ -50,12 +55,12 @@ const Bahasa = () => {
         </div>
       </div>
       <div className="w-full h-2/3 bg-[#212759] py-16">
-          <TranslateJawa />
-          <TranslateLatin />
+        <TranslateJawa />
+        <TranslateLatin />
       </div>
       {/* <Wordle/> */}
-      <Course1/>
-      <BackToTop url={"/bahasa"}/>
+      <Course1 />
+      <BackToTop url={"/bahasa"} />
     </>
   );
 };
