@@ -71,7 +71,7 @@ const Catagories = () => {
         </div>
         <div className="bg-[#2C3361] p-4 sm:p-8 flex sm:flex-row flex-col">
           <div className="p-4 sm:ml-8">
-            <h1 className="text-white text-2xl sm:text-4xl text-center sm:text-left">Testimoni Pengguna Kami!</h1>
+            <h1 className="text-white text-2xl sm:text-3xl text-center sm:text-left">Testimoni Pengguna Kami!</h1>
             <p className="text-white mt-4 sm:mr-24 text-justify sm:text-base text-sm">
               Pemberi testimoni adalah penjelmaan kepuasan, menjadi saksi
               berharga atas pengalaman yang luar biasa. Dengan penuh antusias,

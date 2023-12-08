@@ -8,21 +8,21 @@ const testimoniData = [
     nama: "Wisnu Parichjata",
     testimoni: "Lorem ipsum dolor sit amet.",
     rating: 5,
-    gambar: "iconPetruk.png",
+    gambar: "wisnu.jpg",
   },
   {
     id: 2,
     nama: "John Tor",
     testimoni: "Consectetur adipiscing elit.",
     rating: 4,
-    gambar: "iconPetruk.png",
+    gambar: "robot.jpg",
   },
   {
     id: 3,
     nama: "Jane Doe",
     testimoni: "Testimoni lainnya.",
     rating: 3,
-    gambar: "iconPetruk.png",
+    gambar: "gary.jpg",
   },
   // Tambahkan data testimoni sesuai kebutuhan
 ];
@@ -72,7 +72,7 @@ const SliderTestimoni = () => {
   });
 
   return (
-    <div className="w-full max-w-lg mx-auto relative overflow-hidden bg-[#2C3361] hover:scale-105 transition duration-300">
+    <div className="w-full max-w-lg mx-auto relative overflow-hidden bg-[#2C3361]">
       <animated.div
         style={{ ...props, display: "flex", transition: "transform 0.5s" }}
         onMouseEnter={() => setAutoSlideActive(false)}
@@ -85,7 +85,7 @@ const SliderTestimoni = () => {
               <img
                 src={testimoni.gambar}
                 alt={testimoni.nama}
-                className="mb-4 rounded-full object-cover mr-4"
+                className="mb-4 rounded-full object-cover mr-4 hover:scale-105 transition duration-300"
                 style={{ width: "180px", height: "180px" }}
               />
               <div>

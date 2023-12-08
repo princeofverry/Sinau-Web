@@ -8,7 +8,7 @@ const Course1 = () => {
       <h1 className="text-4xl font-bold text-white text-center pt-4">
         Sinau Jawa
       </h1>
-      <p className="sm:px-32 px-4 py-6 text-center">
+      <p className="sm:px-32 px-4 py-6 text-justify">
         Sinau, platform kursus Bahasa Jawa. Kami membawa Anda pada perjalanan
         edukasi yang menyenangkan dan bermakna. Kami mengundang Anda untuk
         mengeksplorasi keindahan dan kompleksitas Bahasa Jawa melalui kursus
@@ -42,7 +42,7 @@ const Course1 = () => {
             </Link>
 
             {/* Aksara Jawa */}
-            <Link href="">
+            <Link href="./video">
               <div className="pandawa-box bg-[#AD88E7] w-full sm:w-60 h-72 rounded-2xl relative overflow-hidden">
                 <Image
                   src="/iconUnggah.png"
@@ -61,7 +61,7 @@ const Course1 = () => {
             </Link>
 
             {/* Pacelathon Basa Jawa*/}
-            <Link href="">
+            <Link href="./video">
               <div className="pandawa-box bg-[#AD88E7] w-full sm:w-60 h-72 rounded-2xl relative overflow-hidden">
                 <Image
                   src="/iconUnggah.png"
@@ -80,7 +80,7 @@ const Course1 = () => {
             </Link>
 
             {/* Bagong */}
-            <Link href="">
+            <Link href="./video">
               <div className="pandawa-box bg-[#AD88E7] w-full sm:w-60 h-72 rounded-2xl relative overflow-hidden">
                 <Image
                   src="/iconBagong.png"

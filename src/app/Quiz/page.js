@@ -105,7 +105,7 @@ const PageQuiz = () => {
             <p>
               Wrong Answers: <span>{result.wrongAnswers}</span>
             </p>
-            <button onClick={() => window.location.reload()}>Restart</button>
+            <button onClick={() => window.location.reload()} className="w-full px-4 py-2 mt-3 text-base rounded bg-[#AD88E7] text-white">Restart</button>
           </div>
         )}
       </div>
