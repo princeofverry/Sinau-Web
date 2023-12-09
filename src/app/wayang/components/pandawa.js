@@ -3,14 +3,14 @@ import Image from 'next/image';
 
 const Pandawa = () => {
   return (
-    <div className="bg-[#212759] min-h-screen text-white pb-24">
-      <h1 className="text-4xl font-bold text-white text-center pt-24">Pandawa Lima</h1>
+    <div className="bg-[#212759] min-h-screen w-full text-white pb-24">
+      <h1 className="sm:text-3xl text-xl font-bold text-white text-center pt-24">Pandawa Lima</h1>
       <div className="max-w-screen-xl mx-auto my-4">
-        <p className="text-md font-light mx-auto text-center text-white pb-8 " style={{ width: '1200px' }}>
+        <p className="text-md font-light mx-auto text-center text-white pb-8 ">
           Pandawa Lima merupakan sebutan untuk lima bersaudara pada tokoh pewayangan yang terdapat dalam kisah Mahabharata. Sesuai namanya “Pandawa Lima” terdiri dari 5 tokoh yang merupakan anak dari Pandu, seorang Raja di Hastinapura.
         </p>
-        <div className='pandawa-container flex flex-wrap gap-16 justify-center mx-8'>
-          <div className='flex flex-row space-x-5 '>
+        <div className='pandawa-container items-center justify-center mx-8'>
+          <div className='flex flex-wrap gap-4 justify-center items-center'>
             {/* Yudistira */}
             <div className='pandawa-box bg-[#AD88E7] w-56 h-72 rounded-2xl relative'>
               <Image
