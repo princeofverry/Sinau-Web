@@ -28,7 +28,7 @@ const SliderMobile = () => {
   }, [currentIndex]);
 
   return (
-    <div className="my-4 mx-4">
+    <div className="my-4">
       <div className="max-w-md mx-auto mt-8 overflow-hidden">
         <div className="slider-container relative">
           <div
@@ -40,7 +40,7 @@ const SliderMobile = () => {
                 <img
                   src={image}
                   alt={`Slide ${index + 1}`}
-                  className="w-full h-64 object-cover"
+                  className="w-full h-64 object-contain"
                 />
               </div>
             ))}

@@ -113,7 +113,7 @@ const SliderTestimoni = () => {
         ))}
       </animated.div>
       {/* matiin button */}
-      <div className="mt-4 flex justify-between absolute inset-x-0 top-1/3">
+      <div className="absolute top-1/2 right-0 transform -translate-y-1/2 px-4 py-2  text-white">
         <button
           onClick={prevTestimoni}
           className="text-gray-600 text-2xl hidden"
@@ -123,7 +123,7 @@ const SliderTestimoni = () => {
         </button>
         <button
           onClick={nextTestimoni}
-          className="text-gray-600 text-2xl hidden"
+          className="text-gray-600 text-2xl"
           disabled={currentIndex === testimoniData.length - 1}
         >
           &gt;
