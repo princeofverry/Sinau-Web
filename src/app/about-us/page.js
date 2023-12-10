@@ -8,17 +8,17 @@ const AboutUs = () => {
       <div className="container mx-auto flex flex-col items-center">
         {/* konten 1 */}
         <div className="text-white w-full flex justify-start items-center gap-4 pt-16 sm:flex-row flex-col">
-          <div className="sm:w-1/3 w:2/3 mt-4 shadow-xl">
+          <div className="sm:w-1/3 w-full mt-4 shadow-xl">
             <Image
               src="/pesonaJawa2.png"
-              className="w-auto h-auto "
+              className="w-auto h-auto"
               alt="..."
               layout="responsive" // Membuat gambar responsif
               width={250}
               height={450}
             />
           </div>
-          <div className="">
+          <div className="sm:w-2/3 w-full">
             <div className="sm:mx-auto flex flex-col justify-start">
               <p className="text-white sm:text-4xl text-2xl mt-6 font-bold sm:text-left text-center">
                 ABOUT US.
@@ -82,9 +82,9 @@ const AboutUs = () => {
         </div>
         {/* konten 4*/}
         <div className="text-white w-full flex justify-start items-start pt-16 pl-1 pb-12">
-          <div className="sm:block hidden">
-            <div className="flex">
-              <div className="sm:w-1/2 w-0">
+          <div className="lg:block hidden">
+            <div className="flex gap-4">
+              <div className="sm:w-1/2">
                 <Image
                   src="/profile1.jpeg"
                   className="w-72 h-72 pl-2 pb-8"
