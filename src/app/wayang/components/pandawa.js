@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from "next/link";
 
 const Pandawa = () => {
   return (
@@ -12,23 +13,25 @@ const Pandawa = () => {
         <div className='pandawa-container items-center justify-center mx-8'>
           <div className='flex flex-wrap gap-4 justify-center items-center'>
             {/* Yudistira */}
-            <div className='pandawa-box bg-[#AD88E7] w-56 h-72 rounded-2xl relative'>
-              <Image
-                src="/iconYudistira.png"
-                width={110}
-                height={140}
-                className="mx-auto my-4 hover:scale-105 transition-all duration-300"
-                alt={"..."}
-              />
-              <div className="bg-[#4938A0] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
-                {/* Isi kotak dalam */}
-                <p className="text-white text-center font-bold">Yudhistira</p>
+            <Link href="./penjelasanwayang">
+              <div className='pandawa-box bg-[#AD88E7] w-56 h-72 rounded-2xl relative'>
+                <Image
+                  src="/iconYudistira.png"
+                  width={110}
+                  height={140}
+                  className="mx-auto my-4 hover:scale-105 transition-all duration-300"
+                  alt={"..."}
+                />
+                <div className="bg-[#4938A0] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
+                  {/* Isi kotak dalam */}
+                  <p className="text-white text-center font-bold">Yudhistira</p>
+                </div>
+                <div className="pandawa-layer bg-[#C08261] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
+                  <h4 className="text-white text-center">Yudhistira</h4>
+                  <p className='additional-text w-40'>Merupakan penjelmaan Dewa Yama. Ia memerintah di Kerajaan Amarta. Tokoh ini memiliki karakter yang sangat bijaksana.</p>
+                </div>
               </div>
-              <div className="pandawa-layer bg-[#C08261] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
-                <h4 className="text-white text-center">Yudhistira</h4>
-                <p className='additional-text w-40'>Merupakan penjelmaan Dewa Yama. Ia memerintah di Kerajaan Amarta. Tokoh ini memiliki karakter yang sangat bijaksana.</p>
-              </div>
-            </div>
+              </Link>
 
             {/* Bima */}
             <div className='pandawa-box bg-[#AD88E7] w-56 h-72 rounded-2xl relative'>
@@ -72,8 +75,8 @@ const Pandawa = () => {
             <div className='pandawa-box bg-[#AD88E7] w-56 h-72 rounded-2xl relative'>
               <Image
                 src="/iconNakulaSadewa.png"
-                width={120}
-                height={200}
+                width={130}
+                height={140}
                 className="mx-auto my-4 hover:scale-105 pb-8 transition-all duration-300"
                 alt={"..."}
               />
@@ -91,8 +94,8 @@ const Pandawa = () => {
             <div className='pandawa-box bg-[#AD88E7] w-56 h-72 rounded-2xl relative'>
               <Image
                 src="/iconNakulaSadewa.png"
-                width={120}
-                height={200}
+                width={130}
+                height={140}
                 className="mx-auto my-4 hover:scale-105 transition-all duration-300"
                 alt={"..."}
               />
