@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Link from "next/link";
 import React, { useState } from "react";
 import Image from "next/image";
@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className="w-full bg-[#212759] sticky top-0 z-50">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:block">
-          <div className="flex items-center space-x-1 group p-4">
+          <div className="flex items-center space-x-1 group p-4 gap-1">
             <Image
               src="/logoSinau.svg"
               alt="logo-tradisio"
@@ -19,7 +19,9 @@ const Navbar = () => {
               height={40}
               className="group-hover:animate-goyang"
             />
-            <p className="text-2xl font-bold italic text-[#F2ECBE]">Sinau</p>
+            <p className="text-2xl font-bold italic text-[#F2ECBE]">
+              <Link href="/">Sinau</Link>
+            </p>
           </div>
           <div className="md:hidden">
             <button
@@ -48,7 +50,11 @@ const Navbar = () => {
                   stroke="currentColor"
                   strokeWidth={2}
                 >
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
                 </svg>
               )}
             </button>
