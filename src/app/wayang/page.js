@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Pandawa from "./components/pandawa";
 import Punakawan from "./components/punakawan";
+import BackToTop from "../components/utilities/Component/BackToTop";
 
 const Wayang = () => {
   return (
@@ -64,6 +65,7 @@ const Wayang = () => {
             </div>
           </div>
         </div>
+        <BackToTop url={"/wayang"}/>
       </div>
     </>
   );

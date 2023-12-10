@@ -13,11 +13,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between py-3 md:block">
           <div className="flex items-center space-x-1 group p-4">
             <Image
-              src="/Tradisio.png"
+              src="/logoSinau.svg"
               alt="logo-tradisio"
-              width={30}
-              height={30}
-              className="logo-tradisio group-hover:animate-goyang"
+              width={40}
+              height={40}
+              className="group-hover:animate-goyang"
             />
             <p className="text-2xl font-bold italic text-[#F2ECBE]">Sinau</p>
           </div>
