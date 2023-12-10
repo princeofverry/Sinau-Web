@@ -7,8 +7,8 @@ const AboutUs = () => {
     <div className="flex flex-col min-h-screen bg-[#212759]">
       <div className="container mx-auto flex flex-col items-center">
         {/* konten 1 */}
-        <div className="text-white w-full flex justify-start items-center gap-4 pt-16 sm:flex-row flex-col">
-          <div className="sm:w-1/3 w-full mt-4 shadow-xl">
+        <div className="text-white w-full flex justify-start items-center gap-4 pt-16 lg:flex-row flex-col">
+          <div className="sm:w-1/3 w-2/3 mt-4 shadow-xl">
             <Image
               src="/pesonaJawa2.png"
               className="w-auto h-auto"
