@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from "next/link";
 
 const Punakawan = () => {
   return (
@@ -12,24 +13,25 @@ const Punakawan = () => {
         <div className='pandawa-container flex flex-col sm:flex-row sm:justify-center items-center gap-14 mx-8'>
           <div className='flex flex-wrap gap-4 justify-center items-center'>
             {/* Semar */}
-            <div className='pandawa-box bg-[#AD88E7] w-60 h-72 rounded-2xl relative'>
-              <Image
-                src="/iconSemar1.png"
-                width={220}
-                height={240}
-                className="mx-auto my-4 hover:scale-105 transition-all duration-300"
-                alt={"..."}
-              />
-              <div className="bg-[#4938A0] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
-                {/* Isi kotak dalam */}
-                <p className="text-white text-center font-bold">Semar</p>
+            <Link href="./penjelasanpunakawan">
+              <div className='pandawa-box bg-[#AD88E7] w-60 h-72 rounded-2xl relative'>
+                <Image
+                  src="/iconSemar1.png"
+                  width={220}
+                  height={240}
+                  className="mx-auto my-4 hover:scale-105 transition-all duration-300"
+                  alt={"..."}
+                />
+                <div className="bg-[#4938A0] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
+                  {/* Isi kotak dalam */}
+                  <p className="text-white text-center font-bold">Semar</p>
+                </div>
+                <div className="pandawa-layer bg-[#C08261] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
+                  <h4 className="text-white text-center">Semar</h4>
+                  <p className='additional-text w-40'>Melambangkan kehendak yang luhur, sehingga tidak pernah mau mengabdi kepada manusia yang berbuat jahat.</p>
+                </div>
               </div>
-              <div className="pandawa-layer bg-[#C08261] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
-                <h4 className="text-white text-center">Semar</h4>
-                <p className='additional-text w-40'>Melambangkan kehendak yang luhur, sehingga tidak pernah mau mengabdi kepada manusia yang berbuat jahat.</p>
-              </div>
-            </div>
-
+            </Link>
             {/* Gareng */}
             <div className='pandawa-box bg-[#AD88E7] w-60 h-72 rounded-2xl relative'>
               <Image
