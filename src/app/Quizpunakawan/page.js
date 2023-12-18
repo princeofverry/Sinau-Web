@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import { quizpunakawan } from '../datapunakawan.js';
+import { quizpunakawan } from './datapunakawan.js';
 
 const PageQuizpunakawan = () => {
   const [activeQuestion, setActiveQuestion] = useState(0);

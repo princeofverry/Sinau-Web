@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import { quizpandawa } from '../datapandawa.js';
+import { quizpandawa } from './datapandawa.js';
 
 const PageQuizpandawa = () => {
   const [activeQuestion, setActiveQuestion] = useState(0);
