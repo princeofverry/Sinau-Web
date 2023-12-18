@@ -21,11 +21,11 @@ const HalamanUtama = () => {
                 Interaktif dan Terstruktur.
               </div>
               <div className="sm:text-md text-base font-light sm:text-left text-center sm:py-4 py-2 text-[#F2EEBF]">
-                Jelita akan membawa Anda lebih dekat dengan kekayaan bahasa Jawa
+                Sinau akan membawa Anda lebih dekat dengan kekayaan bahasa Jawa
               </div>
               <div className="flex justify-center sm:justify-start">
                 <button className="bg-[#5260e2] p-2 rounded-md hover:bg-[#48306e] hover:scale-105 transition duration-300 text-base ">
-                  Pengen Belajar?
+                  Yuk Belajar!!!
                 </button>
               </div>
             </div>

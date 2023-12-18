@@ -60,7 +60,7 @@ const Bahasa = () => {
       </div>
       {/* <Wordle/> */}
       <Course1 />
-      <BackToTop url={"/bahasa"} />
+      <BackToTop url={"/Course"} />
     </>
   );
 };

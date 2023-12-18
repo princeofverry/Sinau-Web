@@ -67,7 +67,7 @@ const Course1 = () => {
                   src="/iconpacelaton 1.png"
                   width={140} // Adjust the width as needed
                   height={120} // Adjust the height as needed
-                  className="mx-auto my-4 hover:scale-105 transition-all duration-300"
+                  className="mx-auto my-4 hover:scale-105 transition-all duration-300 object-cover"
                   alt={"..."}
                 />
                 <div className="bg-[#4938A0] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
@@ -86,7 +86,7 @@ const Course1 = () => {
                   src="/iconpranatacara.png"
                   width={70}
                   height={110}
-                  className="mx-auto my-4 hover:scale-105 transition-all duration-300"
+                  className="mx-auto my-4 hover:scale-105 transition-all duration-300 object-cover"
                   alt={"..."}
                 />
                 <div className="bg-[#4938A0] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">

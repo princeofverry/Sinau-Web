@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Punakawan = () => {
   return (
-    <div className="bg-[#2C3361] min-h-screen text-white pb-24">
+    <div className="bg-[#2C3361] min-h-screen text-white pb-4">
       <h1 className="text-3xl font-bold text-white text-center pt-24">Punakawan</h1>
       <div className="max-w-screen-xl mx-auto my-4">
         <p className="max-w-screen-xl text-md font-light mx-auto text-center text-white pb-8">
