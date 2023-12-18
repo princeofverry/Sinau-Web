@@ -45,9 +45,9 @@ const Course1 = () => {
             <Link href="./video">
               <div className="pandawa-box bg-[#AD88E7] w-full sm:w-60 h-72 rounded-2xl relative overflow-hidden">
                 <Image
-                  src="/iconUnggah.png"
-                  width={220}
-                  height={240}
+                  src="/aksaraJawa.png"
+                  width={230}
+                  height={200}
                   className="mx-auto my-4 hover:scale-105 transition-all duration-300"
                   alt={"..."}
                 />
@@ -64,9 +64,9 @@ const Course1 = () => {
             <Link href="./video">
               <div className="pandawa-box bg-[#AD88E7] w-full sm:w-60 h-72 rounded-2xl relative overflow-hidden">
                 <Image
-                  src="/iconUnggah.png"
-                  width={220} // Adjust the width as needed
-                  height={240} // Adjust the height as needed
+                  src="/iconpacelaton 1.png"
+                  width={140} // Adjust the width as needed
+                  height={120} // Adjust the height as needed
                   className="mx-auto my-4 hover:scale-105 transition-all duration-300"
                   alt={"..."}
                 />
@@ -79,13 +79,13 @@ const Course1 = () => {
               </div>
             </Link>
 
-            {/* Bagong */}
+            {/* pranatacara*/}
             <Link href="./video">
               <div className="pandawa-box bg-[#AD88E7] w-full sm:w-60 h-72 rounded-2xl relative overflow-hidden">
                 <Image
-                  src="/iconBagong.png"
-                  width={220}
-                  height={240}
+                  src="/iconpranatacara.png"
+                  width={70}
+                  height={110}
                   className="mx-auto my-4 hover:scale-105 transition-all duration-300"
                   alt={"..."}
                 />
