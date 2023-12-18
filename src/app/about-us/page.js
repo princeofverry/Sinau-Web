@@ -4,7 +4,7 @@ import BackToTop from "../components/utilities/Component/BackToTop";
 
 const AboutUs = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-[#212759]">
+    <div className="flex flex-col min-h-screen bg-[#2C3361]">
       <div className="container mx-auto flex flex-col items-center">
         {/* konten 1 */}
         <div className="text-white w-full flex justify-start items-center gap-4 pt-16 lg:flex-row flex-col">
