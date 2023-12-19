@@ -4,11 +4,11 @@ import Link from "next/link";
 
 const Course1 = () => {
   return (
-    <div className="bg-[#212759] min-h-screen text-white p-8">
-      <h1 className="text-4xl font-bold text-white text-center pt-4">
+    <div className="bg-[#212759] h-fit py-4 text-white p-8">
+      <h1 className="sm:text-4xl text-2xl font-bold text-white text-center pt-4">
         Sinau Jawa
       </h1>
-      <p className="sm:px-32 px-4 py-6 text-justify">
+      <p className="sm:px-32 text-lg px-4 py-6 text-justify">
         Sinau, platform kursus Bahasa Jawa. Kami membawa Anda pada perjalanan
         edukasi yang menyenangkan dan bermakna. Kami mengundang Anda untuk
         mengeksplorasi keindahan dan kompleksitas Bahasa Jawa melalui kursus
@@ -26,7 +26,7 @@ const Course1 = () => {
             <Link href="./video">
               <div className="pandawa-box bg-[#AD88E7] w-full sm:w-60 h-72 rounded-2xl relative overflow-hidden">
                 <Image
-                  src="/iconUnggah.png"
+                  src="/icon4.png"
                   width={220}
                   height={240}
                   className="mx-auto my-4 hover:scale-105 transition-all duration-300"
@@ -45,7 +45,7 @@ const Course1 = () => {
             <Link href="./video">
               <div className="pandawa-box bg-[#AD88E7] w-full sm:w-60 h-72 rounded-2xl relative overflow-hidden">
                 <Image
-                  src="/aksaraJawa.png"
+                  src="/icon1.png"
                   width={230}
                   height={200}
                   className="mx-auto my-4 hover:scale-105 transition-all duration-300"
@@ -64,9 +64,9 @@ const Course1 = () => {
             <Link href="./video">
               <div className="pandawa-box bg-[#AD88E7] w-full sm:w-60 h-72 rounded-2xl relative overflow-hidden">
                 <Image
-                  src="/iconpacelaton 1.png"
-                  width={140} // Adjust the width as needed
-                  height={120} // Adjust the height as needed
+                  src="/icon3.png"
+                  width={230} // Adjust the width as needed
+                  height={200} // Adjust the height as needed
                   className="mx-auto my-4 hover:scale-105 transition-all duration-300 object-cover"
                   alt={"..."}
                 />
@@ -83,9 +83,9 @@ const Course1 = () => {
             <Link href="./video">
               <div className="pandawa-box bg-[#AD88E7] w-full sm:w-60 h-72 rounded-2xl relative overflow-hidden">
                 <Image
-                  src="/iconpranatacara.png"
-                  width={70}
-                  height={110}
+                  src="/icon2.png"
+                  width={220}
+                  height={100}
                   className="mx-auto my-4 hover:scale-105 transition-all duration-300 object-cover"
                   alt={"..."}
                 />

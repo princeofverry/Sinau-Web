@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const HalamanUtama = () => {
@@ -24,13 +25,15 @@ const HalamanUtama = () => {
                 Sinau akan membawa Anda lebih dekat dengan kekayaan bahasa Jawa
               </div>
               <div className="flex justify-center sm:justify-start">
-                <button className="bg-[#5260e2] p-2 rounded-md hover:bg-[#48306e] hover:scale-105 transition duration-300 text-base ">
-                  Yuk Belajar!!!
-                </button>
+                <Link href="/Course">
+                  <button className="bg-[#5260e2] p-2 rounded-md hover:bg-[#48306e] hover:scale-105 transition duration-300 text-base ">
+                    Yuk Belajar!!!
+                  </button>
+                </Link>
               </div>
             </div>
             <div className="order-2 sm:order-2 sm:block hidden">
-              <Image src="/masJawa.png" width={600} height={600} alt={"..."}/>
+              <Image src="/masJawa.png" width={600} height={600} alt={"..."} />
             </div>
           </div>
         </div>

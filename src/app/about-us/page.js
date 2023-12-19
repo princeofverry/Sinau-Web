@@ -20,22 +20,27 @@ const AboutUs = () => {
           </div>
           <div className="sm:w-2/3 w-full">
             <div className="sm:mx-auto flex flex-col justify-start">
-              <p className="text-white sm:text-4xl text-2xl mt-6 font-bold sm:text-left text-center">
+              <p className="text-white sm:text-4xl text-2xl mt-6 font-bold sm:text-left italic text-center">
                 ABOUT US.
               </p>
-              <h1 className="md:text-base italic text-md sm:text-xl text-justify py-4 sm:px-0 px-8">
-                Sinau adalah Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Curabitur nec hendrerit turpis, eu porta metus. Ut tempus
-                interdum sagittis. Nunc viverra, dolor vel gravida congue, elit
-                lacus pellentesque mi, id rhoncus sem velit vel enim. Nullam
-                tincidunt, elit eu suscipit facilisis, orci mauris sodales
-                tortor, nec venenatis turpis lacus eget ligula. Aenean varius
-                est non ipsum facilisis, vel eleifend augue sodales. In hac
-                habitasse platea dictumst. Sed vel enim sit amet justo auctor
-                fringilla. In hac habitasse platea dictumst. Sed vel justo vel
-                neque feugiat efficitur vel ac sem. Nulla facilisi. Curabitur
-                congue, elit id venenatis tincidunt, quam velit mattis erat,
-                vitae feugiat elit risus ut metus.
+              <h1 className="md:text-base text-md sm:text-xl text-justify py-4 sm:px-0 px-8">
+                Sinau adalah wadah pembelajaran daring yang mengundang pengguna
+                untuk menjelajahi kekayaan budaya Jawa melalui tiga fitur utama
+                yang menarik. Pertama, platform ini menawarkan modul
+                pembelajaran bahasa Jawa yang komprehensif, mulai dari tingkat
+                dasar hingga tingkat lanjutan, mencakup kosakata, tata bahasa,
+                frasa umum, dan percakapan sehari-hari. Kedua, Sinau memberikan
+                pengenalan mendalam terhadap seni tradisional wayang kulit Jawa
+                melalui artikel, video, dan gambar yang menjelaskan sejarah,
+                jenis karakter, dan makna filosofis di baliknya. Ketiga,
+                terdapat kuis interaktif yang menguji pengetahuan pengguna
+                tentang bahasa Jawa, seni wayang, dan unsur-unsur budaya Jawa
+                lainnya. Dengan antarmuka yang ramah pengguna, komunitas
+                pembelajaran yang aktif, dan pengembangan konten yang
+                terus-menerus, Sinau tidak hanya menjadi tempat pembelajaran,
+                tetapi juga sebuah komunitas yang mendukung para pecinta budaya
+                Jawa dalam perjalanan mereka untuk memahami dan melestarikan
+                warisan budaya yang berharga.
               </h1>
             </div>
           </div>
@@ -114,30 +119,25 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-            <div className="max-w-[800px] mx-auto text-start flex flex-col justify-start">
-              <p className="text-white sm:text-3xl text-2xl font-bold md:pb-0 text-center sm:text-left">
-                THE TEAM.
-              </p>
-              <h1 className="italic text-md sm:text-lg md:py-6 text-justify px-8 sm:px-0 sm:pt-0 pt-4">
-                Sinau.com adalah Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Curabitur nec hendrerit turpis, eu porta metus.
-                Ut tempus interdum sagittis. Nunc viverra, dolor vel gravida
-                congue, elit lacus pellentesque mi, id rhoncus sem velit vel
-                enim. Nullam tincidunt, elit eu suscipit facilisis, orci mauris
-                sodales tortor, nec venenatis turpis lacus eget ligula. Aenean
-                varius est non ipsum facilisis, vel eleifend augue sodales. In
-                hac habitasse platea dictumst. Sed vel enim sit amet justo
-                auctor fringilla. In hac habitasse platea dictumst. Sed vel
-                justo vel neque feugiat efficitur vel ac sem. Nulla facilisi.
-                Curabitur congue, elit id venenatis tincidunt, quam velit mattis
-                erat, vitae feugiat elit risus ut metus. Ampun dados tiyang
-                ingkang rumaos saged. Ananging dados tiyang ingkang saged
-                rumaos.
-              </h1>
-            </div>
+          <div className="max-w-[800px] mx-auto text-start flex flex-col justify-start">
+            <p className="italic text-white sm:text-3xl text-2xl font-bold md:pb-0 text-center sm:text-left">
+              THE TEAM.
+            </p>
+            <h1 className="text-md sm:text-lg md:py-6 text-justify px-8 sm:px-0 sm:pt-0 pt-4">
+              Tim kami, dengan penuh semangat dan tekad, adalah kelompok yang
+              baru terbentuk yang kami sebut 'Tim Masih Pemula.' Meskipun
+              mungkin belum memiliki banyak pengalaman, namun semangat belajar
+              dan dedikasi kami terhadap proyek Sinau membuat kami merasa yakin
+              dapat memberikan kontribusi yang berarti dalam memperkenalkan
+              kebudayaan Jawa. Kami berkomitmen untuk terus belajar, tumbuh
+              bersama, dan memberikan pengalaman pembelajaran yang menarik bagi
+              pengguna kami, sembari merangkul perjalanan kami sebagai tim yang
+              masih dalam tahap awal ini.
+            </h1>
           </div>
         </div>
-      <BackToTop url={"/about-us"}/>
+      </div>
+      <BackToTop url={"/about-us"} />
     </div>
   );
 };

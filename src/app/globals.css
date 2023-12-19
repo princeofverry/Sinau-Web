@@ -31,7 +31,7 @@ html {
 /* Responsive styles for smartphones */
 @media screen and (max-width: 767px) {
   .typing-animation {
-      font-size: 1.5rem; /* Adjust font size for smaller screens */
+      font-size: 1rem; /* Adjust font size for smaller screens */
   }
 }
 
