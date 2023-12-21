@@ -21,9 +21,11 @@ const Wayang = () => {
                 memerankan tokoh dalam pertunjukan drama tradisional.
               </div>
               <Link href="/penjelasanwayang">
-                <button className="bg-[#5260e2] p-2 rounded-md hover:bg-[#48306e] hover:scale-105 transition duration-300 text-base ">
-                  Explore
-                </button>
+                <div className="flex justify-center sm:justify-start">
+                  <button className="bg-[#5260e2] p-2 rounded-md hover:bg-[#48306e] hover:scale-105 transition duration-300 text-base">
+                    Explore
+                  </button>
+                </div>
               </Link>
             </div>
             <div className="hidden sm:flex">
