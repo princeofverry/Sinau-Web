@@ -62,14 +62,14 @@ const AboutUs = () => {
         <div className="text-white w-full justify-start pt-8 flex items-center sm:justify-start sm:items-start sm:flex-row flex-col">
           <div className="w-1/2">
             <div class="mx-auto text-start flex flex-col justify-start">
-              <p class="text-white sm:text-6xl text-4xl font-bold md:pt-32 md:pb-0 ml-0 sm:ml-16 -ml-4">
+              <p class="text-white sm:text-6xl text-4xl font-bold md:pt-32 md:pb-0  sm:ml-16 -ml-4">
                 "
               </p>
               <h1 class="sm:text-2xl text-xl  text-md font-bold text-justify px- md:px-24">
                 Ampun dados tiyang ingkang rumaos saged. Ananging dados tiyang
                 ingkang saged rumaos.
               </h1>
-              <h2 class="text-white sm:text-6xl text-4xl font-bold md:pt-8 text-right mr-0 sm:mr-16 -mr-4">
+              <h2 class="text-white sm:text-6xl text-4xl font-bold md:pt-8 text-right  sm:mr-16 -mr-4">
                 "
               </h2>
             </div>
@@ -86,7 +86,7 @@ const AboutUs = () => {
           </div>
         </div>
         {/* konten 4*/}
-        <div className="text-white w-full flex justify-start items-start pt-16 pl-1 pb-12">
+        <div className="text-white w-full flex justify-start items-center pt-16 pl-1 pb-12">
           <div className="lg:block hidden">
             <div className="flex gap-4">
               <div className="sm:w-1/2">
