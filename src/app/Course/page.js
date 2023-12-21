@@ -13,18 +13,19 @@ const Bahasa = () => {
   return (
     <>
       <div className="bg-[#2C3361] text-white w-full h-full sm:hidden block text-xl text-center content-center sm:py-8 pt-4 px-4">
-        <SliderMobile/>
+        <SliderMobile />
         <p className="px-4 pb-32">
-          Bahasa <span className="text-[#85C2FF] text-2xl">Jawa</span> adalah Bahasa Austronesia di pulau Jawa,
-          warisan budaya Indonesia yang kaya makna dan nilai.
+          Bahasa <span className="text-[#85C2FF] text-2xl">Jawa</span> adalah
+          Bahasa Austronesia di pulau Jawa, warisan budaya Indonesia yang kaya
+          makna dan nilai.
         </p>
       </div>
       <div className="bg-[#2C3361] w-full h-screen hidden sm:block">
         <TextBjir />
       </div>
       {/* <AppCarousel /> */}
-      <div className="bg-[#2C3361]"></div>
-      <div className="bg-[#212759] text-white py-6">
+      <Course1 />
+      <div className="bg-[#2C3361] text-white py-6">
         <div className="max-w-screen-xl mx-auto my-8">
           <h1 className="text-3xl font-bold text-white text-center mt-6">
             &quot;Aksara Jawa&quot;
@@ -59,7 +60,6 @@ const Bahasa = () => {
         <TranslateLatin />
       </div>
       {/* <Wordle/> */}
-      <Course1 />
       <BackToTop url={"/Course"} />
     </>
   );

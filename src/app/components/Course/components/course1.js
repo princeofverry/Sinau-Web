@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Course1 = () => {
   return (
-    <div className="bg-[#212759] h-fit py-4 text-white p-8">
+    <div className="bg-[#212759] h-fit pt-8 pb-16 text-white ">
       <h1 className="sm:text-3xl text-2xl font-bold text-white text-center pt-4">
         Sinau Jawa
       </h1>
