@@ -19,8 +19,8 @@ const testimoniData = [
   },
   {
     id: 3,
-    nama: "Jane Doe",
-    testimoni: "Menyenangkan sekali belajar disini!",
+    nama: "Gary",
+    testimoni: "Seru banget deh!",
     rating: 5,
     gambar: "gary.jpg",
   },
