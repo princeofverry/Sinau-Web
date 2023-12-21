@@ -6,7 +6,7 @@ const Penjelasanpunakawan= () => {
   return (
     <div className="bg-[#2C3361] flex flex-col min-h-screen text-white sm:px-80 px-8 items-center justify-center py-4">
       <h1 className="sm:text-3xl text-lg font-bold text-white text-center py-4">
-        YSemar
+        Semar
       </h1>
       <div className="max-w-screen-xl mx-auto mb-8">
         <div className="pandawa-container flex justify-center">

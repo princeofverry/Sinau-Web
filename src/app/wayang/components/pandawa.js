@@ -4,10 +4,10 @@ import Link from "next/link";
 
 const Pandawa = () => {
   return (
-    <div className="bg-[#212759] min-h-screen w-full text-white pb-4">
-      <h1 className="sm:text-3xl text-xl font-bold text-white text-center pt-24">Pandawa Lima</h1>
+    <div className="bg-[#212759] h-max w-full text-white pb-8">
+      <h1 className="sm:text-3xl text-xl font-bold text-white text-center pt-8">Pandawa Lima</h1>
       <div className="max-w-screen-xl mx-auto my-4">
-        <p className="text-md font-light mx-auto text-center text-white pb-8 ">
+        <p className="sm:text-md text-base font-light mx-auto text-center text-white pb-8 sm:px-16">
           Pandawa Lima merupakan sebutan untuk lima bersaudara pada tokoh pewayangan yang terdapat dalam kisah Mahabharata. Sesuai namanya “Pandawa Lima” terdiri dari 5 tokoh yang merupakan anak dari Pandu, seorang Raja di Hastinapura.
         </p>
         <div className='pandawa-container items-center justify-center mx-8'>

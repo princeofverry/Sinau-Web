@@ -12,9 +12,9 @@ import SliderMobile from "../bahasa/components/SliderMobile";
 const Bahasa = () => {
   return (
     <>
-      <div className="bg-[#2C3361] text-white w-full h-screen sm:hidden block text-xl text-center content-center py-8 px-4">
+      <div className="bg-[#2C3361] text-white w-full h-full sm:hidden block text-xl text-center content-center sm:py-8 pt-4 px-4">
         <SliderMobile/>
-        <p className="px-4">
+        <p className="px-4 pb-32">
           Bahasa <span className="text-[#85C2FF] text-2xl">Jawa</span> adalah Bahasa Austronesia di pulau Jawa,
           warisan budaya Indonesia yang kaya makna dan nilai.
         </p>

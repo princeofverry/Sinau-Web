@@ -4,14 +4,14 @@ import Link from "next/link";
 
 const Punakawan = () => {
   return (
-    <div className="bg-[#2C3361] min-h-screen text-white pb-4">
-      <h1 className="text-3xl font-bold text-white text-center pt-24">Punakawan</h1>
+    <div className="bg-[#2C3361] h-max text-white pb-4">
+      <h1 className="text-3xl font-bold text-white text-center pt-8">Punakawan</h1>
       <div className="max-w-screen-xl mx-auto my-4">
-        <p className="max-w-screen-xl text-md font-light mx-auto text-center text-white pb-8">
+        <p className="sm:text-md text-base font-light mx-auto text-center text-white pb-8 sm:px-16">
           Punakawan adalah tokoh pewayangan Jawa yang diciptakan oleh seorang pujangga Jawa, dan merupakan mitologi asli masyarakat Jawa. Tokoh punakawan pertama kali muncul dalam karya Sastra Ghatotkacasraya, karangan Empu Panuluh pada zaman Kerajaan Kediri.
         </p>
         <div className='pandawa-container flex flex-col sm:flex-row sm:justify-center items-center gap-14 mx-8'>
-          <div className='flex flex-wrap gap-4 justify-center items-center'>
+          <div className='flex flex-wrap gap-4 justify-center items-center pb-8'>
             {/* Semar */}
             <Link href="./penjelasanpunakawan">
               <div className='pandawa-box bg-[#AD88E7] w-60 h-72 rounded-2xl relative'>
