@@ -11,7 +11,7 @@ const Catagories = () => {
         <h1 className="text-center text-4xl text-slate-50 pt-8 pb-4">
           Kenapa #HarusSinauTerus ?
         </h1>
-        <div className="flex gap-8 justify-center md:flex-row flex-col items-center p-4">
+        <div className="flex gap-8 justify-center items-center sm:content-start md:flex-row flex-col p-4">
           <div className="flex w-64">
             <div className="mr-4 flex-cols">
               <Image src="/books.svg" alt="..." width={250} height={250} />
@@ -23,6 +23,11 @@ const Catagories = () => {
                 dengan kelas <strong>Bahasa Jawa</strong> kami. Jelajahi
                 kekayaan Bahasa Jawa melalui kursus yang kami tawarkan.
               </p>
+              <Link href="./Course">
+                <button className="bg-[#5260e2] p-1 rounded-md hover:bg-[#48306e] hover:scale-105 transition duration-300 text-base my-4">
+                  Course nihh
+                </button>
+              </Link>
             </div>
           </div>
           <div className="flex w-64">
@@ -36,6 +41,11 @@ const Catagories = () => {
                 Test seberapa paham Anda terhadap <strong>bahasa Jawa.</strong>{" "}
                 Jangan lewatkan keseruannya, ayo coba sekarang!
               </p>
+              <Link href="./Quiz">
+                <button className="bg-[#5260e2] p-1 rounded-md hover:bg-[#48306e] hover:scale-105 transition duration-300 text-base my-4">
+                  Quiz yuk
+                </button>
+              </Link>
             </div>
           </div>
           <div className="flex w-64">
@@ -51,7 +61,7 @@ const Catagories = () => {
                 menantang!
               </p>
               <Link href="./Game">
-                <button className="bg-[#5260e2] p-1 rounded-md hover:bg-[#48306e] hover:scale-105 transition duration-300 text-base justify-self-center">
+                <button className="bg-[#5260e2] p-1 rounded-md hover:bg-[#48306e] hover:scale-105 transition duration-300 text-base my-4">
                   Mau main?
                 </button>
               </Link>
@@ -59,20 +69,25 @@ const Catagories = () => {
           </div>
           <div className="flex w-64">
             <div className="mr-4">
-              <Image src="/wordle.svg" alt="..." width={300} height={250} />
+              <Image src="/wayangIcon.png" alt="..." width={300} height={250} layout={""} />
             </div>
             <div className="text-slate-200">
               <h1 className="text-2xl">Visualisasi wayang</h1>
               <p className="font-base text-slate-300">
                 Terpesona dengan keajaiban dunia <strong>wayang? </strong>
-                Temukan keindahan seni dan kisah di balik setiap tokoh wayang.
+                Temukan keindahan seni dan kisah tokoh wayang.
                 Mari <strong>jelajahi</strong> dan nikmati keunikan budaya{" "}
                 <strong>wayang</strong> bersama kami!
               </p>
+              <Link href="./wayang">
+                <button className="bg-[#5260e2] p-1 rounded-md hover:bg-[#48306e] hover:scale-105 transition duration-300 text-base my-4">
+                  Wayang 👇
+                </button>
+              </Link>
             </div>
           </div>
         </div>
-        <div className="text-slate-py-32 sm:pt-4 p-4">
+        <div className="text-slate-py-32 sm:pt-4 p-8">
           <Statistik />
         </div>
         <div className="bg-[#2C3361] p-4 sm:p-8 flex sm:flex-row flex-col">
