@@ -20,10 +20,10 @@ const AboutUs = () => {
           </div>
           <div className="sm:w-2/3 w-full">
             <div className="sm:mx-auto flex flex-col justify-start">
-              <p className="text-white sm:text-4xl text-2xl mt-6 font-bold sm:text-left italic text-center">
+              <p className="text-white sm:text-4xl text-2xl mt-6 font-bold sm:text-left text-center">
                 ABOUT US.
               </p>
-              <h1 className="md:text-base text-md sm:text-xl text-justify py-4 sm:px-0 px-8">
+              <h1 className="md:text-base text-md sm:text-xl text-justify py-4 sm:px-0 px-8 italic">
                 Sinau adalah wadah pembelajaran daring yang mengundang pengguna
                 untuk menjelajahi kekayaan budaya Jawa melalui tiga fitur utama
                 yang menarik. Pertama, platform ini menawarkan modul
@@ -62,14 +62,14 @@ const AboutUs = () => {
         <div className="text-white w-full justify-start pt-8 flex items-center sm:justify-start sm:items-start sm:flex-row flex-col">
           <div className="w-1/2">
             <div class="mx-auto text-start flex flex-col justify-start">
-              <p class="text-white sm:text-6xl text-4xl font-bold md:pt-32 md:pb-0 ml-0 sm:ml-12">
+              <p class="text-white sm:text-6xl text-4xl font-bold md:pt-32 md:pb-0 ml-0 sm:ml-16 -ml-4">
                 "
               </p>
               <h1 class="sm:text-2xl text-xl  text-md font-bold text-justify px- md:px-24">
                 Ampun dados tiyang ingkang rumaos saged. Ananging dados tiyang
                 ingkang saged rumaos.
               </h1>
-              <h2 class="text-white sm:text-6xl text-4xl font-bold md:pt-12 text-right mr-0 sm:mr-24">
+              <h2 class="text-white sm:text-6xl text-4xl font-bold md:pt-8 text-right mr-0 sm:mr-16 -mr-4">
                 "
               </h2>
             </div>
@@ -120,10 +120,10 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="max-w-[800px] mx-auto text-start flex flex-col justify-start">
-            <p className="italic text-white sm:text-3xl text-2xl font-bold md:pb-0 text-center sm:text-left">
+            <p className="text-white sm:text-3xl text-2xl font-bold md:pb-0 text-center sm:text-left">
               THE TEAM.
             </p>
-            <h1 className="text-md sm:text-lg md:py-6 text-justify px-8 sm:px-0 sm:pt-0 pt-4">
+            <h1 className="italic text-md sm:text-lg md:py-6 text-justify px-8 sm:px-0 sm:pt-0 pt-4">
               Tim kami, dengan penuh semangat dan tekad, adalah kelompok yang
               baru terbentuk yang kami sebut 'Tim Masih Pemula.' Meskipun
               mungkin belum memiliki banyak pengalaman, namun semangat belajar
