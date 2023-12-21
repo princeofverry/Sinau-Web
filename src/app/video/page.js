@@ -5,10 +5,10 @@ import Link from "next/link";
 const Video = () => {
   return (
     <div className="bg-[#2C3361] flex flex-col min-h-screen text-white sm:px-80 px-8 items-center justify-center py-4">
-      <h1 className="sm:text-3xl text-lg font-bold text-white text-center py-4">
+      <h1 className="sm:text-3xl text-xl font-bold text-white text-center py-4">
         Unggah-Ungguh Basa Jawa
       </h1>
-      <div className="max-w-screen-xl mx-auto mb-8">
+      <div className="w-full mx-auto mb-8">
         <div className="pandawa-container flex justify-center">
           <div className="flex flex-wrap justify-center gap-14">
             <div className="pandawa-box bg-[#AD88E7] sm:w-[600px] w-[300px] h-[200px] sm:h-[400px] rounded-2xl relative overflow-hidden">
