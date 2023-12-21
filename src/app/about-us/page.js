@@ -46,7 +46,7 @@ const AboutUs = () => {
           </div>
         </div>
         {/* konten 2 */}
-        <div className="text-white w-full flex justify-center items-center pt-12 mx-auto">
+        <div className="text-white w-full flex justify-center items-center pt-12 sm:px-0 px-4 mx-auto">
           <div className="shadow-sm">
             <Image
               src="/pesonaJawa1.png"

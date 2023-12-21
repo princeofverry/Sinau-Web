@@ -8,7 +8,7 @@ const Catagories = () => {
   return (
     <>
       <div className="bg-[#212759]">
-        <h1 className="text-center text-4xl text-slate-50 pt-8 pb-4">
+        <h1 className="text-center text-2xl sm:text-4xl text-slate-50 pt-8 pb-4">
           Kenapa #HarusSinauTerus ?
         </h1>
         <div className="flex gap-8 justify-center items-center sm:content-start md:flex-row flex-col p-4">
@@ -17,7 +17,7 @@ const Catagories = () => {
               <Image src="/books.svg" alt="..." width={250} height={250} />
             </div>
             <div className="text-slate-200">
-              <h1 className="text-2xl">Course yang seru banget!!</h1>
+              <h1 className="sm:text-2xl text-xl">Course yang seru banget!!</h1>
               <p className="font-base text-slate-300">
                 Nikmati pengalaman <strong>belajar</strong> yang menyenangkan
                 dengan kelas <strong>Bahasa Jawa</strong> kami. Jelajahi
@@ -35,7 +35,7 @@ const Catagories = () => {
               <Image src="/quiz.svg" alt="..." width={300} height={250} />
             </div>
             <div className="text-slate-200">
-              <h1 className="text-2xl">Melatih diri dengan Quiz</h1>
+              <h1 className="sm:text-2xl text-xl">Melatih diri dengan Quiz</h1>
               <p className="font-base text-slate-300">
                 Yuk sambut tantangan dengan <strong>quiz</strong> Bahasa Jawa!
                 Test seberapa paham Anda terhadap <strong>bahasa Jawa.</strong>{" "}
@@ -53,7 +53,7 @@ const Catagories = () => {
               <Image src="/wordle.svg" alt="..." width={300} height={250} />
             </div>
             <div className="text-slate-200">
-              <h1 className="text-2xl">Game yang menarik</h1>
+              <h1 className="sm:text-2xl text-xl">Game yang menarik</h1>
               <p className="font-base text-slate-300">
                 Tebak kata dalam <strong>Wordle</strong>{" "}
                 <strong>Bahasa Jawa!</strong> Coba sekarang dan ungkap rahasia
@@ -72,7 +72,7 @@ const Catagories = () => {
               <Image src="/wayangIcon.png" alt="..." width={300} height={250} layout={""} />
             </div>
             <div className="text-slate-200">
-              <h1 className="text-2xl">Visualisasi wayang</h1>
+              <h1 className="sm:text-2xl text-xl">Visualisasi wayang</h1>
               <p className="font-base text-slate-300">
                 Terpesona dengan keajaiban dunia <strong>wayang? </strong>
                 Temukan keindahan seni dan kisah tokoh wayang.
