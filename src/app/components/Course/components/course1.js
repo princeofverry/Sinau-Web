@@ -5,10 +5,10 @@ import Link from "next/link";
 const Course1 = () => {
   return (
     <div className="bg-[#212759] h-fit py-4 text-white p-8">
-      <h1 className="sm:text-4xl text-2xl font-bold text-white text-center pt-4">
+      <h1 className="sm:text-3xl text-2xl font-bold text-white text-center pt-4">
         Sinau Jawa
       </h1>
-      <p className="sm:px-32 text-lg px-4 py-6 text-justify">
+      <p className="sm:px-32 sm:text-lg text-base px-4 py-6 font-base text-justify">
         Sinau, platform kursus Bahasa Jawa. Kami membawa Anda pada perjalanan
         edukasi yang menyenangkan dan bermakna. Kami mengundang Anda untuk
         mengeksplorasi keindahan dan kompleksitas Bahasa Jawa melalui kursus

@@ -6,22 +6,22 @@ const testimoniData = [
   {
     id: 1,
     nama: "Wisnu Parichjata",
-    testimoni: "Lorem ipsum dolor sit amet.",
+    testimoni: "Kerenn bangetsss",
     rating: 5,
     gambar: "wisnu.jpg",
   },
   {
     id: 2,
     nama: "John Tor",
-    testimoni: "Consectetur adipiscing elit.",
+    testimoni: "Kelazzz cuyy",
     rating: 4,
     gambar: "robot.jpg",
   },
   {
     id: 3,
     nama: "Jane Doe",
-    testimoni: "Testimoni lainnya.",
-    rating: 3,
+    testimoni: "Menyenangkan sekali belajar disini!",
+    rating: 5,
     gambar: "gary.jpg",
   },
   // Tambahkan data testimoni sesuai kebutuhan
@@ -113,17 +113,17 @@ const SliderTestimoni = () => {
         ))}
       </animated.div>
       {/* matiin button */}
-      <div className="absolute top-1/2 right-0 transform -translate-y-1/2 px-4 py-2  text-white">
+      <div className="text-white">
         <button
           onClick={prevTestimoni}
-          className="text-gray-600 text-2xl hidden"
+          className="text-gray-600 text-2xl absolute top-1/2 left-0 transform -translate-y-1/2 px-2 py-2 hover:text-gray-800 cursor-pointer"
           disabled={currentIndex === 0}
         >
           &lt;
         </button>
         <button
           onClick={nextTestimoni}
-          className="text-gray-600 text-2xl"
+          className="text-gray-600 text-2xl absolute top-1/2 right-0 transform -translate-y-1/2 px-2 py-2 hover:text-gray-800 cursor-pointer"
           disabled={currentIndex === testimoniData.length - 1}
         >
           &gt;
