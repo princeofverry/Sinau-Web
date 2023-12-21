@@ -10,7 +10,7 @@ const Footer = () => {
       {/* ada flex items center space-x-1 */}
       <div className="text-center sm:text-left">
         <div className="text-[#FCF5ED] text-sm">
-          @ 2023 Masih Pemula. All rights reserved.
+          @2023 Masih Pemula. All rights reserved.
         </div>
       </div>
       {/* <div className="flex items-center space-x-8">

@@ -26,7 +26,7 @@ const HalamanUtama = () => {
               </div>
               <div className="flex justify-center sm:justify-start">
                 <Link href="/Course">
-                  <button className="bg-[#5260e2] p-2 rounded-md hover:bg-[#48306e] hover:scale-105 transition duration-300 text-base ">
+                  <button className="bg-[#5260e2] p-2 rounded-md hover:bg-[#48306e] hover:scale-105 transition duration-300 text-base">
                     Yuk Belajar!!!
                   </button>
                 </Link>
