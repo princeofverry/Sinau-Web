@@ -85,7 +85,7 @@ const SliderTestimoni = () => {
               <img
                 src={testimoni.gambar}
                 alt={testimoni.nama}
-                className="mb-4 rounded-full object-cover mr-4 hover:scale-105 transition duration-300"
+                className="mb-4 rounded-full object-cover mr-4"
                 style={{ width: "180px", height: "180px" }}
               />
               <div>
@@ -117,14 +117,14 @@ const SliderTestimoni = () => {
         <button
           onClick={prevTestimoni}
           className="text-gray-600 text-2xl absolute top-1/2 left-0 transform -translate-y-1/2 px-2 py-2 hover:text-gray-800 cursor-pointer"
-          disabled={currentIndex === 0}
+          // disabled={currentIndex === 0}
         >
           &lt;
         </button>
         <button
           onClick={nextTestimoni}
           className="text-gray-600 text-2xl absolute top-1/2 right-0 transform -translate-y-1/2 px-2 py-2 hover:text-gray-800 cursor-pointer"
-          disabled={currentIndex === testimoniData.length - 1}
+          // disabled={currentIndex === testimoniData.length - 1}
         >
           &gt;
         </button>
