@@ -48,7 +48,7 @@ const Course1 = () => {
                   src="/icon1.png"
                   width={230}
                   height={200}
-                  className="mx-auto my-4 hover:scale-105 transition-all duration-300"
+                  className="mx-auto my-2 hover:scale-105 transition-all duration-300"
                   alt={"..."}
                 />
                 <div className="bg-[#4938A0] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
@@ -67,7 +67,7 @@ const Course1 = () => {
                   src="/icon3.png"
                   width={230} // Adjust the width as needed
                   height={200} // Adjust the height as needed
-                  className="mx-auto my-4 hover:scale-105 transition-all duration-300 object-cover"
+                  className="mx-auto my-2 hover:scale-105 transition-all duration-300 object-cover"
                   alt={"..."}
                 />
                 <div className="bg-[#4938A0] w-full h-16 rounded-2xl absolute bottom-0 left-0 right-0 flex justify-center items-center">
@@ -84,7 +84,7 @@ const Course1 = () => {
               <div className="pandawa-box bg-[#AD88E7] w-full sm:w-60 h-72 rounded-2xl relative overflow-hidden">
                 <Image
                   src="/icon2.png"
-                  width={220}
+                  width={205}
                   height={100}
                   className="mx-auto my-4 hover:scale-105 transition-all duration-300 object-cover"
                   alt={"..."}
